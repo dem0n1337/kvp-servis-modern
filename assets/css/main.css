@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: rgba(199, 46, 48, 0.93);
+  --accent-2: rgba(252, 58, 61, 0.9);
+  --contrast: #212838;
+  --contrast-2: #19284a;
+  --contrast-3: #496095;
+  --base: #d6dbe7;
+  --base-2: #e6e6e6;
+  --base-3: #dee4eb;
+}
+
+@layer base {
+  body {
+    font-family: 'EB Garamond', serif;
+    background-color: #dde3eb;
+    color: var(--contrast-3);
+    line-height: 1.8;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    color: var(--contrast-2);
+  }
+
+  h1 {
+    line-height: 1em;
+  }
+
+  h2 {
+    line-height: 1.5em;
+  }
+
+  h3 {
+    line-height: 1.2em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  }
+
+  .service-card {
+    @apply bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-primary-dark mb-12 text-center;
+  }
+}

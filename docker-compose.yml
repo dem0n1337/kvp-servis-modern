@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  kvp-servis:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - SMTP_SERVER=${SMTP_SERVER}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      - GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY}
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - kvp-network
+
+networks:
+  kvp-network:
+    driver: bridge
