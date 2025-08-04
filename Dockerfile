@@ -21,12 +21,13 @@ WORKDIR /app
 # Copy built application from builder stage
 COPY --from=builder /app/.output ./
 
-# Install only production dependencies for the server
-RUN npm pkg delete scripts.prepare && npm ci --only=production && npm cache clean --force
-
 # Create non-root user for security
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nuxtjs
+
+# Change ownership of the app directory to the nuxtjs user
+RUN chown -R nuxtjs:nodejs /app
+
 USER nuxtjs
 
 EXPOSE 3000
