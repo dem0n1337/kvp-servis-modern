@@ -1,5 +1,5 @@
 # Build stage
-FROM node:18-alpine AS builder
+FROM node:18-bullseye-slim AS builder
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:18-alpine AS runner
+FROM node:18-bullseye-slim AS runner
 
 WORKDIR /app
 
@@ -29,8 +29,6 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nuxtjs
 USER nuxtjs
 
-# Expose port
 EXPOSE 3000
 
-# Start the application
 CMD ["node", "server/index.mjs"]
