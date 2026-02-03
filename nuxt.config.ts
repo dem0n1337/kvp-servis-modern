@@ -30,15 +30,19 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ],
       script: [
+        // Google tag (gtag.js)
         {
           async: true,
-          src: 'https://www.googletagmanager.com/gtag/js?id=AW-16664778582'
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-CF8RBRBE31'
         },
         {
           children: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+
+            gtag('config', 'G-CF8RBRBE31');
+            // Keep existing Google Ads tag as well (if you still use it)
             gtag('config', 'AW-16664778582');
           `
         }

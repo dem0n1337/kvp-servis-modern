@@ -5,6 +5,9 @@
 .nitro
 .cache
 dist
+current-page
+files-display
+workflow-content
 
 # Node dependencies
 node_modules
