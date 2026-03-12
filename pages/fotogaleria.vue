@@ -88,33 +88,41 @@
 
 <script setup>
 useHead({
-  title: 'Fotogaléria - KVP-Servis',
+  title: 'Fotogaléria - KVP-Servis | Naše realizácie',
   meta: [
-    { 
-      name: 'description', 
-      content: 'Fotogaléria dokončených projektov KVP-Servis. Prezrite si naše realizácie kotolní, kúrenárskych systémov, vodovodných a plynových inštalácií v Bratislavskom kraji.' 
-    }
-  ]
+    {
+      name: 'description',
+      content: 'Fotogaléria realizácií KVP-Servis: kotolne, kúrenárske systémy, vodovodné a plynové inštalácie. Bratislavský kraj.',
+    },
+    { property: 'og:title', content: 'Fotogaléria - KVP-Servis | Naše realizácie' },
+    { property: 'og:description', content: 'Prezrite si naše dokončené projekty: kotolne, kúrenárske systémy, vodovodné a plynové inštalácie.' },
+    { property: 'og:url', content: 'https://kvp-servis.sk/fotogaleria' },
+    { name: 'twitter:title', content: 'Fotogaléria - KVP-Servis' },
+    { name: 'twitter:description', content: 'Prezrite si naše dokončené projekty: kotolne, kúrenárske systémy, vodovodné a plynové inštalácie.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://kvp-servis.sk/fotogaleria' },
+  ],
 })
 
-// Project images from the KVP gallery
+// Project images from the KVP gallery with SEO alt texts
 const projectImages = [
-  '/images/IMG-20250604-WA0001.jpg',
-  '/images/IMG-20250604-WA0002.jpg',
-  '/images/IMG-20250604-WA0004.jpg',
-  '/images/IMG-20250604-WA0005.jpg',
-  '/images/IMG-20250604-WA0006.jpg',
-  '/images/IMG-20250604-WA0007.jpg',
-  '/images/IMG-20250604-WA0008.jpg',
-  '/images/IMG-20250604-WA0009.jpg',
-  '/images/IMG-20250604-WA0010.jpg',
-  '/images/IMG-20250604-WA0013.jpg',
-  '/images/IMG-20250604-WA0014.jpg',
-  '/images/IMG-20250604-WA0015.jpg',
-  '/images/IMG-20250604-WA0016.jpg',
-  '/images/IMG-20250604-WA0017.jpg',
-  '/images/IMG-20250604-WA0018.jpg',
-  '/images/IMG-20250604-WA0020.jpg'
+  { src: '/images/IMG-20250604-WA0001.jpg', alt: 'Inštalácia vykurovacieho systému - KVP-Servis realizácia' },
+  { src: '/images/IMG-20250604-WA0002.jpg', alt: 'Montáž kotla Buderus - profesionálna kotolňa' },
+  { src: '/images/IMG-20250604-WA0004.jpg', alt: 'Podlahové kúrenie - rozvody a inštalácia' },
+  { src: '/images/IMG-20250604-WA0005.jpg', alt: 'Vodovodné inštalácie - kompletná realizácia' },
+  { src: '/images/IMG-20250604-WA0006.jpg', alt: 'Kúrenársky systém - radiátory a rozvody' },
+  { src: '/images/IMG-20250604-WA0007.jpg', alt: 'Plynová inštalácia - bezpečné pripojenie' },
+  { src: '/images/IMG-20250604-WA0008.jpg', alt: 'Servis a údržba kotlov - KVP-Servis' },
+  { src: '/images/IMG-20250604-WA0009.jpg', alt: 'Montáž vykurovacieho zariadenia' },
+  { src: '/images/IMG-20250604-WA0010.jpg', alt: 'Rekonštrukcia kúpeľne - vodoinštalácie' },
+  { src: '/images/IMG-20250604-WA0013.jpg', alt: 'Kotolňa - kompletná inštalácia vykurovania' },
+  { src: '/images/IMG-20250604-WA0014.jpg', alt: 'Inštalácia plynového kotla Vaillant' },
+  { src: '/images/IMG-20250604-WA0015.jpg', alt: 'Rozvody podlahového kúrenia' },
+  { src: '/images/IMG-20250604-WA0016.jpg', alt: 'Výmena radiátorov a termostatických ventilov' },
+  { src: '/images/IMG-20250604-WA0017.jpg', alt: 'Sanitárne inštalácie - kúpeľňa' },
+  { src: '/images/IMG-20250604-WA0018.jpg', alt: 'Plynové rozvody - certifikovaná inštalácia' },
+  { src: '/images/IMG-20250604-WA0020.jpg', alt: 'Dokončený projekt - kotolňa s kotlom Protherm' },
 ]
 </script>
 

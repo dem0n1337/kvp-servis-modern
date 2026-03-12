@@ -500,13 +500,21 @@
 
 <script setup>
 useHead({
-  title: 'Služby - KVP-Servis',
+  title: 'Služby - KVP-Servis | Kúrenie, voda a plyn',
   meta: [
-    { 
-      name: 'description', 
-      content: 'Kompletný prehľad služieb KVP-Servis: inštalácia a servis kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Profesionálne riešenia pre Bratislavský kraj.' 
-    }
-  ]
+    {
+      name: 'description',
+      content: 'Služby KVP-Servis: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.',
+    },
+    { property: 'og:title', content: 'Služby - KVP-Servis | Kúrenie, voda a plyn' },
+    { property: 'og:description', content: 'Kompletný prehľad služieb: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie.' },
+    { property: 'og:url', content: 'https://kvp-servis.sk/sluzby' },
+    { name: 'twitter:title', content: 'Služby - KVP-Servis | Kúrenie, voda a plyn' },
+    { name: 'twitter:description', content: 'Kompletný prehľad služieb: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://kvp-servis.sk/sluzby' },
+  ],
 })
 </script>
 

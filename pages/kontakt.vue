@@ -34,7 +34,14 @@
         <!-- Interactive Map - Top Section -->
         <div class="w-full mb-16">
           <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Kde nás nájdete</h2>
-          <BusinessMap />
+          <ClientOnly>
+            <BusinessMap />
+            <template #fallback>
+              <div class="w-full h-96 rounded-xl overflow-hidden border border-primary-medium/20 shadow-lg bg-gray-100 flex items-center justify-center">
+                <p class="text-gray-500">Načítavam mapu...</p>
+              </div>
+            </template>
+          </ClientOnly>
         </div>
 
         <!-- Contact Details and Form in 2 columns -->
@@ -253,13 +260,21 @@
 
 <script setup>
 useHead({
-  title: 'Kontakt - KVP-Servis',
+  title: 'Kontakt - KVP-Servis | Kúrenie, voda a plyn',
   meta: [
-    { 
-      name: 'description', 
-      content: 'Kontaktujte KVP-Servis pre profesionálne služby kúrenia, vody a plynu. Telefón: +421 918 572 389, Email: marcel.jezik@kvp-servis.sk. Slovenský Grob, Bratislavský kraj.' 
-    }
-  ]
+    {
+      name: 'description',
+      content: 'Kontaktujte KVP-Servis: +421 918 572 389, marcel.jezik@kvp-servis.sk. Slovenský Grob, Bratislavský kraj.',
+    },
+    { property: 'og:title', content: 'Kontakt - KVP-Servis' },
+    { property: 'og:description', content: 'Kontaktujte nás pre služby kúrenia, vody a plynu. Slovenský Grob, Bratislavský kraj.' },
+    { property: 'og:url', content: 'https://kvp-servis.sk/kontakt' },
+    { name: 'twitter:title', content: 'Kontakt - KVP-Servis' },
+    { name: 'twitter:description', content: 'Kontaktujte nás pre služby kúrenia, vody a plynu. Slovenský Grob, Bratislavský kraj.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://kvp-servis.sk/kontakt' },
+  ],
 })
 
 const form = ref({

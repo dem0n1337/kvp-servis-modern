@@ -30,10 +30,10 @@
         <!-- Main Header -->
         <div class="py-4">
           <div class="flex justify-between items-center">
-            <div class="group cursor-pointer">
-              <h1 class="text-2xl font-bold transform group-hover:scale-105 transition-transform duration-300">KVP-Servis</h1>
-              <p class="text-primary-light text-sm group-hover:text-white transition-colors duration-300">Kúrenie, voda a plyn</p>
-            </div>
+            <NuxtLink to="/" class="group cursor-pointer block">
+              <span class="text-2xl font-bold transform group-hover:scale-105 transition-transform duration-300 block">KVP-Servis</span>
+              <span class="text-primary-light text-sm group-hover:text-white transition-colors duration-300 block">Kúrenie, voda a plyn</span>
+            </NuxtLink>
             <nav class="hidden md:flex space-x-6">
               <NuxtLink 
                 to="/" 
@@ -128,7 +128,7 @@
           </div>
         </div>
         <div class="border-t border-primary-dark mt-8 pt-8 text-center text-primary-light/60">
-          <p>&copy; 2025 KVP-Servis. Všetky práva vyhradené.</p>
+          <p>&copy; {{ new Date().getFullYear() }} KVP-Servis. Všetky práva vyhradené.</p>
         </div>
       </div>
     </footer>

@@ -1,0 +1,38 @@
+# KVP-Servis
+
+> Profesionálne služby v oblasti kúrenia, vody a plynu v Bratislavskom kraji, Slovensko.
+
+## O firme
+
+KVP-Servis je firma prevádzkovaná Marcelom Ježíkom so sídlom v Slovenskom Grobe (Ružová 406/24, 900 26).
+Poskytujeme profesionálne služby v oblasti kúrenia, vodovodných inštalácií a plynových rozvodov pre domácnosti a firmy v Bratislavskom kraji.
+
+## Služby
+
+### Kúrenie
+- Inštalácia a servis kotlov (Buderus, Bosch, Junkers, Vaillant, Protherm)
+- Podlahové kúrenie
+- Radiátorové systémy
+- Servis a údržba vykurovacích zariadení
+
+### Voda
+- Vodovodné inštalácie pre novostavby a rekonštrukcie
+- Inštalácia sanitárnej techniky
+- Opravy vodovodných porúch
+
+### Plyn
+- Plynové inštalácie a rozvody
+- Bezpečnostné kontroly a revízie
+- Servis plynových kotlov
+
+## Kontakt
+- Telefón: +421 918 572 389
+- Email: marcel.jezik@kvp-servis.sk
+- Adresa: Ružová 406/24, 900 26 Slovenský Grob, Slovensko
+- Otváracie hodiny: Pondelok - Nedeľa, 9:00 - 17:00
+
+## Stránky
+- Domov: https://kvp-servis.sk/
+- Služby: https://kvp-servis.sk/sluzby
+- Fotogaléria: https://kvp-servis.sk/fotogaleria
+- Kontakt: https://kvp-servis.sk/kontakt

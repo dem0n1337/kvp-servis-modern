@@ -8,8 +8,8 @@
     >
       <img
         class="relative h-full w-full object-cover"
-        :src="image"
-        :alt="image"
+        :src="getImageSrc(image)"
+        :alt="getImageAlt(image)"
       />
     </div>
   </div>
@@ -22,8 +22,8 @@
   >
     <div class="relative max-h-full max-w-full">
       <img
-        :src="images[currentImageIndex]"
-        :alt="images[currentImageIndex]"
+        :src="getImageSrc(images[currentImageIndex])"
+        :alt="getImageAlt(images[currentImageIndex])"
         class="max-h-screen max-w-screen object-contain"
         @click.stop
       />
@@ -60,12 +60,23 @@
 import type { HTMLAttributes } from "vue";
 import { cn } from "~/lib/utils";
 
+interface ImageItem {
+  src: string;
+  alt: string;
+}
+
 interface Props {
-  images: string[];
+  images: (string | ImageItem)[];
   class?: HTMLAttributes["class"];
 }
 
 const props = defineProps<Props>();
+
+// Helper to get src/alt from either string or object
+const getImageSrc = (image: string | ImageItem): string =>
+  typeof image === 'string' ? image : image.src;
+const getImageAlt = (image: string | ImageItem): string =>
+  typeof image === 'string' ? image : image.alt;
 
 // Modal state
 const isModalOpen = ref(false);

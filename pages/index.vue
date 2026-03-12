@@ -199,11 +199,19 @@ import { h } from 'vue'
 useHead({
   title: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu',
   meta: [
-    { 
-      name: 'description', 
-      content: 'KVP-Servis poskytuje profesionálne služby v oblasti kúrenia, vody a plynu. Inštalácia a servis kotlov Buderus, Bosch, Junkers, Vaillant, Protherm. Bratislavský kraj.' 
-    }
-  ]
+    {
+      name: 'description',
+      content: 'KVP-Servis - inštalácia a servis kotlov Buderus, Bosch, Vaillant, Protherm. Kúrenie, voda, plyn. Slovenský Grob, Bratislavský kraj.',
+    },
+    { property: 'og:title', content: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu' },
+    { property: 'og:description', content: 'Inštalácia a servis kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.' },
+    { property: 'og:url', content: 'https://kvp-servis.sk/' },
+    { name: 'twitter:title', content: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu' },
+    { name: 'twitter:description', content: 'Inštalácia a servis kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://kvp-servis.sk/' },
+  ],
 })
 
 const features = [

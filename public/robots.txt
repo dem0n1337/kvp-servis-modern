@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://kvp-servis.sk/sitemap.xml
