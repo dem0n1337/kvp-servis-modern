@@ -81,6 +81,18 @@ export default defineNuxtConfig({
     },
   },
 
+  // Suppress known Nuxt internal sourcemap warning (nuxt:module-preload-polyfill)
+  vite: {
+    build: {
+      rollupOptions: {
+        onLog(level, log, handler) {
+          if (log.message?.includes('nuxt:module-preload-polyfill')) return
+          handler(level, log)
+        },
+      },
+    },
+  },
+
   // Runtime config for environment variables
   runtimeConfig: {
     // Private keys are only available on the server

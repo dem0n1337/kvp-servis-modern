@@ -1,11 +1,11 @@
 # Build stage
-FROM node:22-bullseye-slim AS builder
+FROM node:22-bookworm-slim AS builder
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
-RUN rm -rf node_modules package-lock.json && npm install
+# Copy package files and install dependencies (deterministic via lockfile)
+COPY package.json package-lock.json ./
+RUN npm ci
 
 # Copy source code
 COPY . .
@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:22-bullseye-slim AS runner
+FROM node:22-bookworm-slim AS runner
 
 WORKDIR /app
 
@@ -22,11 +22,9 @@ WORKDIR /app
 COPY --from=builder /app/.output ./
 
 # Create non-root user for security
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nuxtjs
-
-# Change ownership of the app directory to the nuxtjs user
-RUN chown -R nuxtjs:nodejs /app
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nuxtjs && \
+    chown -R nuxtjs:nodejs /app
 
 USER nuxtjs
 

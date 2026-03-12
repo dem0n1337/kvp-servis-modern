@@ -5,7 +5,7 @@ on:
     branches: [ "master", "main" ]
   pull_request:
     branches: [ "master", "main" ]
-  workflow_dispatch:  # Umožní manuálne spustenie
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
@@ -23,10 +23,10 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Setup Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@v4
 
     - name: Log in to GitHub Container Registry
-      uses: docker/login-action@v3
+      uses: docker/login-action@v4
       with:
         registry: ${{ env.REGISTRY }}
         username: ${{ github.actor }}
@@ -34,7 +34,7 @@ jobs:
 
     - name: Extract metadata
       id: meta
-      uses: docker/metadata-action@v5
+      uses: docker/metadata-action@v6
       with:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         tags: |
@@ -46,20 +46,19 @@ jobs:
           type=raw,value=latest,enable={{is_default_branch}}
 
     - name: Build and push Docker image
-      uses: docker/build-push-action@v5
+      uses: docker/build-push-action@v6
       with:
         context: .
-        push: true
+        push: ${{ github.event_name != 'pull_request' }}
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
-        platforms: linux/amd64,linux/arm64
+        platforms: linux/amd64
 
   deploy:
     needs: build-and-push
     runs-on: ubuntu-latest
-    # FIXED: Allow both push to master AND manual workflow dispatch
     if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/master')
 
     steps:
@@ -67,7 +66,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Copy files to server
-      uses: appleboy/scp-action@v0.1.5
+      uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USER }}
@@ -77,17 +76,17 @@ jobs:
         target: "~/kvp-servis-modern"
 
     - name: Deploy to server
-      uses: appleboy/ssh-action@v1.0.0
+      uses: appleboy/ssh-action@v1.2.0
       with:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_SSH_KEY }}
         port: ${{ secrets.SERVER_PORT }}
+        script_stop: true
         script: |
-          # Prejdi do adresára projektu
           cd ~/kvp-servis-modern
 
-          # Vytvor .env súbor ak neexistuje
+          # Vytvor .env ak neexistuje
           if [ ! -f .env ]; then
             cat > .env << EOF
           NODE_ENV=production
@@ -98,18 +97,18 @@ jobs:
           EOF
           fi
 
-          # Aktualizuj docker-compose.yml aby používal image z GHCR
+          # Aktualizuj docker-compose.yml aby pouzival image z GHCR
           sed -i 's|build: .|image: ghcr.io/${{ github.repository }}:latest|' docker-compose.yml
 
-          # Login to GitHub Container Registry with PAT
+          # Login to GitHub Container Registry
           echo '${{ secrets.GHCR_TOKEN }}' | docker login ghcr.io -u '${{ github.actor }}' --password-stdin
 
-          # Pull najnovší image a reštartuj kontajner
-          docker-compose pull
-          docker-compose up -d --force-recreate
+          # Pull najnovsi image a restartuj kontajner
+          docker compose pull
+          docker compose up -d --force-recreate
 
-          # Vyčisti staré images
+          # Vycisti stare images
           docker image prune -f
 
-          # Logout for security
+          # Logout
           docker logout ghcr.io
