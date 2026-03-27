@@ -29,11 +29,13 @@
             :initial="{ opacity: 0, y: 50 }"
             :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
           >
-            <h1 class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-primary-light bg-clip-text">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-primary-light bg-clip-text">
               <UiHeroHighlight color="white" :animation-delay="500">
                 KVP-Servis
               </UiHeroHighlight>
             </h1>
+            <p class="text-xl md:text-2xl text-primary-light/90 font-semibold mb-2">Váš kúrenár a inštalatér v Bratislavskom kraji</p>
+            <p class="text-base text-primary-light/70">Kúrenie, voda a plyn — Bratislava a okolie</p>
           </div>
           
           <!-- About Me Section -->
@@ -44,51 +46,25 @@
             class="mb-10"
           >
             <div class="max-w-4xl mx-auto">
-              <p class="text-base text-primary-light/90 leading-relaxed">
-                Volám sa <UiTextHighlight 
+              <p class="text-base text-primary-light/90 leading-relaxed mb-6">
+                Volám sa <UiTextHighlight
                   class="rounded-xl bg-gradient-to-r from-orange-300 to-red-300 font-bold"
                   :delay="1000"
                   :duration="1500"
                   text-end-color="#1e2a3a"
-                >Marcel Ježík</UiTextHighlight> a ponúkam vám riešenia v oblasti všetkých vyššie uvedených služieb. 
-                Každý váš problém a želanie je pre mňa dôležité, či už pôjde o výmenu vodovodnej batérie, alebo o riešenie kompletnej vodoinštalácie či kúrenia. 
-                V prípade požiadavky na väčšiu rýchlosť realizácie viem práce uskutočniť aj v spolupráci so svojimi kolegami. 
-                Preto ma neváhajte kontaktovať, <UiTextHighlight 
-                  class="rounded-xl bg-gradient-to-r from-blue-300 to-cyan-300 font-bold"
-                  :delay="2000"
-                  :duration="1800"
-                  text-end-color="#1e2a3a"
-                >akúkoľvek obhliadku vykonávam samozrejme zdarma.</UiTextHighlight>
+                >Marcel Ježík</UiTextHighlight> — som váš kúrenár a inštalatér pôsobiaci v Bratislave a okolí.
+                Ponúkam vám riešenia v oblasti kúrenia, vody a plynu.
+                Každý váš problém a želanie je pre mňa dôležité, či už pôjde o výmenu vodovodnej batérie, alebo o riešenie kompletnej vodoinštalácie či kúrenia.
+                V prípade požiadavky na väčšiu rýchlosť realizácie viem práce uskutočniť aj v spolupráci so svojimi kolegami.
+                Preto ma neváhajte kontaktovať.
+              </p>
+              <p class="text-sm text-primary-light/70 mt-2">
+                Kompletný zoznam ponúkaných služieb nájdete na podstránke
+                <NuxtLink to="/sluzby" class="text-primary-bright hover:text-white underline underline-offset-2 transition-colors">Služby</NuxtLink>.
               </p>
             </div>
           </div>
           
-          <div
-            v-motion
-            :initial="{ opacity: 0, y: 30 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 800, delay: 700 } }"
-            class="flex flex-col sm:flex-row gap-6 justify-center"
-          >
-            <NuxtLink 
-              to="/sluzby" 
-              class="rainbow-button group relative inline-flex h-11 cursor-pointer items-center justify-center rounded-xl border-0 bg-[length:200%] px-8 py-2 font-medium text-white transition-colors [background-clip:padding-box,border-box,border-box] [background-origin:border-box] [border:calc(0.08*1rem)_solid_transparent] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 before:absolute before:bottom-[-20%] before:left-1/2 before:z-0 before:h-1/5 before:w-3/5 before:-translate-x-1/2 before:bg-[linear-gradient(90deg,var(--color-1),var(--color-2),var(--color-3),var(--color-4),var(--color-5),var(--color-6),var(--color-7))] before:bg-[length:200%] before:[filter:blur(calc(0.8*1rem))] bg-[linear-gradient(#121213,#121213),linear-gradient(#121213_50%,rgba(18,18,19,0.6)_80%,rgba(18,18,19,0)),linear-gradient(90deg,var(--color-1),var(--color-2),var(--color-3),var(--color-4),var(--color-5),var(--color-6),var(--color-7))]"
-            >
-              <svg class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
-              </svg>
-              Naše služby
-            </NuxtLink>
-            
-            <NuxtLink 
-              to="/kontakt" 
-              class="rainbow-button inverted group relative inline-flex h-11 cursor-pointer items-center justify-center rounded-xl border-0 bg-[length:200%] px-8 py-2 font-medium text-white transition-colors [background-clip:padding-box,border-box,border-box] [background-origin:border-box] [border:calc(0.08*1rem)_solid_transparent] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 before:absolute before:bottom-[-20%] before:left-1/2 before:z-0 before:h-1/5 before:w-3/5 before:-translate-x-1/2 before:bg-[linear-gradient(90deg,var(--color-1),var(--color-2),var(--color-3),var(--color-4),var(--color-5),var(--color-6),var(--color-7))] before:bg-[length:200%] before:[filter:blur(calc(0.8*1rem))] bg-[linear-gradient(#121213,#121213),linear-gradient(#121213_50%,rgba(18,18,19,0.6)_80%,rgba(18,18,19,0)),linear-gradient(90deg,var(--color-1),var(--color-2),var(--color-3),var(--color-4),var(--color-5),var(--color-6),var(--color-7))]"
-            >
-              <svg class="w-5 h-5 mr-2 group-hover:animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-              </svg>
-              Kontaktujte nás
-            </NuxtLink>
-          </div>
         </div>
       </div>
     </section>
@@ -101,17 +77,17 @@
           :initial="{ opacity: 0, y: 50 }"
           :enter="{ opacity: 1, y: 0, transition: { duration: 600 } }"
         >
-          <h2 class="text-3xl font-bold text-center text-primary-dark mb-12">Naše služby</h2>
+          <h2 class="text-3xl font-bold text-center text-primary-dark mb-12">Čo pre vás viem urobiť</h2>
         </div>
-        
+
         <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <!-- Heating Services -->
-          <div 
+          <div
             v-motion
             :initial="{ opacity: 0, x: -50 }"
             :enter="{ opacity: 1, x: 0, transition: { duration: 600, delay: 200 } }"
           >
-            <UiCardSpotlight 
+            <UiCardSpotlight
               :radius="200"
               color="rgba(231, 76, 60, 0.2)"
               :colors="[[231, 76, 60], [255, 107, 53]]"
@@ -119,7 +95,7 @@
             >
               <div class="p-8 text-center h-full flex flex-col items-center justify-center space-y-4 relative rounded-xl">
                 <div class="w-20 h-20 mb-6 p-4 bg-gradient-to-br from-red-500 to-red-600 rounded-full shadow-xl relative group-hover:scale-110 transition-all duration-300">
-                  <img src="/images/kurenie.svg" alt="Kúrenie icon" class="w-full h-full object-contain filter brightness-0 invert">
+                  <img src="/images/kurenie.svg" alt="Kúrenár Bratislava - kúrenie icon" class="w-full h-full object-contain filter brightness-0 invert">
                   <div class="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full"></div>
                 </div>
                 <h3 class="text-3xl font-black text-red-400 mb-3 tracking-tight">Kúrenie</h3>
@@ -127,17 +103,20 @@
                 <p class="text-white text-base font-semibold leading-relaxed max-w-xs">
                   Pri plánovaní vykurovacieho systému je potrebné myslieť na dlhodobé riešenia a v tom Vám poskytnem rady. Taktiež zabezpečím, namontujem alebo opravím kúrenie akéhokoľvek typu.
                 </p>
+                <p class="text-white/80 text-sm leading-relaxed max-w-xs">
+                  Základom je spoľahlivý plynový kondenzačný kotol. Nainštalujem ho alebo vymením starý — <strong class="text-white">za 1 pracovný deň</strong> vrátane vyvložkovania komína. Zoservisujem vám aj plynový kotol a kúrenie. Robím tiež preplach a chemické čistenie podlahového kúrenia a radiátorov pre vyšší výkon a menšie výdavky.
+                </p>
               </div>
             </UiCardSpotlight>
           </div>
 
           <!-- Water Services -->
-          <div 
+          <div
             v-motion
             :initial="{ opacity: 0, y: 50 }"
             :enter="{ opacity: 1, y: 0, transition: { duration: 600, delay: 400 } }"
           >
-            <UiCardSpotlight 
+            <UiCardSpotlight
               :radius="200"
               color="rgba(74, 123, 167, 0.2)"
               :colors="[[74, 123, 167], [45, 74, 107]]"
@@ -145,7 +124,7 @@
             >
               <div class="p-8 text-center h-full flex flex-col items-center justify-center space-y-4 relative rounded-xl">
                 <div class="w-20 h-20 mb-6 p-4 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full shadow-xl relative group-hover:scale-110 transition-all duration-300">
-                  <img src="/images/voda.svg" alt="Voda icon" class="w-full h-full object-contain filter brightness-0 invert">
+                  <img src="/images/voda.svg" alt="Inštalatér Bratislava - voda icon" class="w-full h-full object-contain filter brightness-0 invert">
                   <div class="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full"></div>
                 </div>
                 <h3 class="text-3xl font-black text-blue-400 mb-3 tracking-tight">Voda</h3>
@@ -153,17 +132,20 @@
                 <p class="text-white text-base font-semibold leading-relaxed max-w-xs">
                   Zaoberám sa vodoinštalačnými prácami od základov. Či už ide o prípojku do domu, studňové čerpadlo, výmenu stúpačiek v blokoch alebo kompletnú rekonštrukciu inštalácií vo vašej kúpeľni a WC.
                 </p>
+                <p class="text-white/80 text-sm leading-relaxed max-w-xs">
+                  Ako inštalatér v Bratislave riešim všetko od výmeny vodovodnej batérie cez opravu kvapkajúceho kohútika až po kompletné vodoinštalácie pre novostavby a rekonštrukcie.
+                </p>
               </div>
             </UiCardSpotlight>
           </div>
 
           <!-- Gas Services -->
-          <div 
+          <div
             v-motion
             :initial="{ opacity: 0, x: 50 }"
             :enter="{ opacity: 1, x: 0, transition: { duration: 600, delay: 600 } }"
           >
-            <UiCardSpotlight 
+            <UiCardSpotlight
               :radius="200"
               color="rgba(245, 158, 11, 0.2)"
               :colors="[[245, 158, 11], [255, 107, 53]]"
@@ -171,7 +153,7 @@
             >
               <div class="p-8 text-center h-full flex flex-col items-center justify-center space-y-4 relative rounded-xl">
                 <div class="w-20 h-20 mb-6 p-4 bg-gradient-to-br from-amber-500 to-amber-600 rounded-full shadow-xl relative group-hover:scale-110 transition-all duration-300">
-                  <img src="/images/plyn.svg" alt="Plyn icon" class="w-full h-full object-contain filter brightness-0 invert">
+                  <img src="/images/plyn.svg" alt="Plynoinštalatér Bratislava - plyn icon" class="w-full h-full object-contain filter brightness-0 invert">
                   <div class="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full"></div>
                 </div>
                 <h3 class="text-3xl font-black text-amber-400 mb-3 tracking-tight">Plyn</h3>
@@ -179,9 +161,32 @@
                 <p class="text-white text-base font-semibold leading-relaxed max-w-xs">
                   Zabezpečujem realizáciu plynovej prípojky, výmenu alebo inštaláciu sporákov a servis a montáž plynových kotlov. Výnimkou nie je ani zabezpečenie tlakových skúšok a iné.
                 </p>
+                <p class="text-white/80 text-sm leading-relaxed max-w-xs">
+                  Pripojím vám sporák alebo varnú dosku, vymením plynové hadice, zrealizujem nové plynové rozvody. Zabezpečím aj detekciu a opravu úniku plynu, tlakové skúšky a výmenu regulátorov plynu.
+                </p>
               </div>
             </UiCardSpotlight>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Area Section -->
+    <section class="py-16 bg-white relative overflow-hidden">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-primary-dark mb-8">Oblasť pôsobenia</h2>
+        <div class="max-w-4xl mx-auto">
+          <p class="text-gray-700 text-lg leading-relaxed mb-6 text-center">
+            Ako kúrenár a inštalatér poskytujem služby v oblasti kúrenia, vody a plynu pre domácnosti aj firmy v <strong>Bratislave</strong> a širšom okolí <strong>Bratislavského kraja</strong>. Pravidelne realizujem zákazky v týchto lokalitách:
+          </p>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 text-center">
+            <span v-for="town in serviceTowns" :key="town" class="bg-primary-neutral/50 text-primary-dark font-medium py-2 px-3 rounded-lg text-sm">
+              {{ town }}
+            </span>
+          </div>
+          <p class="text-gray-600 text-base leading-relaxed mt-6 text-center">
+            Hľadáte spoľahlivého kúrenára alebo inštalatéra vo vašom okolí? Neváhajte ma <NuxtLink to="/kontakt" class="text-primary-bright hover:text-primary-dark underline underline-offset-2 transition-colors font-semibold">kontaktovať</NuxtLink> — servis kotlov, inštalatérske a kúrenárske práce vykonávam promptne a za férové ceny.
+          </p>
         </div>
       </div>
     </section>
@@ -197,14 +202,14 @@
 import { h } from 'vue'
 
 useHead({
-  title: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu',
+  title: 'KVP-Servis - Kúrenár a inštalatér | Bratislava a okolie',
   meta: [
     {
       name: 'description',
-      content: 'KVP-Servis - inštalácia a servis kotlov Buderus, Bosch, Vaillant, Protherm. Kúrenie, voda, plyn. Slovenský Grob, Bratislavský kraj.',
+      content: 'KVP-Servis — váš kúrenár a inštalatér v Bratislave. Inštalácia kondenzačných kotlov za 1 deň, servis kotlov Buderus, Vaillant, Protherm. Kúrenie, voda, plyn. Bratislavský kraj.',
     },
-    { property: 'og:title', content: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu' },
-    { property: 'og:description', content: 'Inštalácia a servis kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.' },
+    { property: 'og:title', content: 'KVP-Servis - Kúrenár a inštalatér | Bratislava a okolie' },
+    { property: 'og:description', content: 'Kúrenár a inštalatér v Bratislave — inštalácia kondenzačných kotlov, servis, podlahové kúrenie, vodoinštalácie a plynové rozvody.' },
     { property: 'og:url', content: 'https://kvp-servis.sk/' },
     { name: 'twitter:title', content: 'KVP-Servis - Profesionálne služby kúrenia, vody a plynu' },
     { name: 'twitter:description', content: 'Inštalácia a servis kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.' },
@@ -213,6 +218,13 @@ useHead({
     { rel: 'canonical', href: 'https://kvp-servis.sk/' },
   ],
 })
+
+const serviceTowns = [
+  'Slovenský Grob', 'Bratislava', 'Pezinok', 'Senec',
+  'Ivanka pri Dunaji', 'Bernolákovo', 'Chorvátsky Grob', 'Viničné',
+  'Modra', 'Svätý Jur', 'Limbach', 'Šenkvice',
+  'Budmerice', 'Čierna Voda', 'Most pri Bratislave', 'Tomášov',
+]
 
 const features = [
   {

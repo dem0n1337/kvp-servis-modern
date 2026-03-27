@@ -24,7 +24,7 @@
       
       <div class="container mx-auto px-4 text-center relative z-10">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Kontakt</h1>
-        <p class="text-xl text-primary-pale">Sme tu pre vás</p>
+        <p class="text-xl text-primary-pale">Váš kúrenár a inštalatér v Bratislave — sme tu pre vás</p>
       </div>
     </section>
 
@@ -124,7 +124,8 @@
             <div class="mt-12">
               <h3 class="text-xl font-semibold text-gray-800 mb-4">Oblasť pôsobenia</h3>
               <p class="text-gray-600 mb-4">
-                Naše služby poskytujeme primárne v Bratislavskom kraji a okolí. 
+                Ako kúrenár a inštalatér poskytujeme služby primárne v <strong>Bratislave a okolí</strong> (do 20 km).
+                Sídlo firmy je v Slovenskom Grobe, no väčšinu zákaziek realizujeme priamo v Bratislave a Bratislavskom kraji.
                 Pre väčšie projekty sme ochotní cestovať aj ďalej.
               </p>
             </div>
@@ -240,9 +241,9 @@
     <!-- Emergency Contact -->
     <section class="py-12 bg-emergency-red text-white">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-2xl font-bold mb-4">Potrebujete urgentný servis?</h2>
+        <h2 class="text-2xl font-bold mb-4">Potrebujete urgentne kúrenára alebo inštalatéra?</h2>
         <p class="text-white/90 mb-6">
-          Pri poruchách kúrenia alebo vody volejte priamo na náš telefón
+          Pri poruchách kúrenia, vody alebo plynu volejte priamo na náš telefón — pôsobíme v Bratislave a okolí
         </p>
         <a 
           href="tel:+421918572389" 
@@ -260,17 +261,17 @@
 
 <script setup>
 useHead({
-  title: 'Kontakt - KVP-Servis | Kúrenie, voda a plyn',
+  title: 'Kontakt - KVP-Servis | Kúrenár a inštalatér Bratislava',
   meta: [
     {
       name: 'description',
-      content: 'Kontaktujte KVP-Servis: +421 918 572 389, marcel.jezik@kvp-servis.sk. Slovenský Grob, Bratislavský kraj.',
+      content: 'Kontaktujte kúrenára a inštalatéra KVP-Servis: +421 918 572 389, marcel.jezik@kvp-servis.sk. Bratislava a okolie, Bratislavský kraj.',
     },
-    { property: 'og:title', content: 'Kontakt - KVP-Servis' },
-    { property: 'og:description', content: 'Kontaktujte nás pre služby kúrenia, vody a plynu. Slovenský Grob, Bratislavský kraj.' },
+    { property: 'og:title', content: 'Kontakt - KVP-Servis | Kúrenár a inštalatér Bratislava' },
+    { property: 'og:description', content: 'Kontaktujte kúrenára a inštalatéra v Bratislave. Kúrenie, voda, plyn — servis a inštalácie. Bratislavský kraj.' },
     { property: 'og:url', content: 'https://kvp-servis.sk/kontakt' },
-    { name: 'twitter:title', content: 'Kontakt - KVP-Servis' },
-    { name: 'twitter:description', content: 'Kontaktujte nás pre služby kúrenia, vody a plynu. Slovenský Grob, Bratislavský kraj.' },
+    { name: 'twitter:title', content: 'Kontakt - KVP-Servis | Kúrenár Bratislava' },
+    { name: 'twitter:description', content: 'Kontaktujte kúrenára a inštalatéra v Bratislave. Kúrenie, voda, plyn — Bratislavský kraj.' },
   ],
   link: [
     { rel: 'canonical', href: 'https://kvp-servis.sk/kontakt' },

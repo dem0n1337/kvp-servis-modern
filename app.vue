@@ -14,17 +14,20 @@ useHead({
       type: 'application/ld+json',
       children: JSON.stringify({
         '@context': 'https://schema.org',
-        '@type': 'LocalBusiness',
+        '@type': ['LocalBusiness', 'Plumber', 'HVACBusiness'],
         '@id': 'https://kvp-servis.sk/#business',
         name: 'KVP-Servis',
-        description: 'Profesionálne služby v oblasti kúrenia, vody a plynu. Inštalácia, servis a údržba kotlov, podlahového kúrenia a vodovodných systémov v Bratislavskom kraji.',
+        alternateName: ['KVP Servis', 'Kúrenár Bratislava KVP-Servis', 'Inštalatér Bratislava KVP-Servis'],
+        description: 'KVP-Servis — váš kúrenár a inštalatér v Bratislave a okolí. Inštalácia kondenzačných kotlov za 1 deň, servis kotlov Buderus, Vaillant, Protherm, podlahové kúrenie, vodoinštalácie a plynové rozvody. Bratislavský kraj.',
         url: 'https://kvp-servis.sk',
         telephone: '+421918572389',
         email: 'marcel.jezik@kvp-servis.sk',
         founder: {
           '@type': 'Person',
           name: 'Marcel Ježík',
+          jobTitle: 'Kúrenár a inštalatér',
         },
+        knowsAbout: ['kúrenár', 'inštalatér', 'plynoinštalatér', 'servis kotlov', 'kondenzačný kotol', 'podlahové kúrenie', 'vodoinštalácie', 'plynové rozvody'],
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Ružová 406/24',
@@ -47,10 +50,16 @@ useHead({
           opens: '09:00',
           closes: '17:00',
         },
-        areaServed: {
-          '@type': 'AdministrativeArea',
-          name: 'Bratislavský kraj',
-        },
+        areaServed: [
+          {
+            '@type': 'City',
+            name: 'Bratislava',
+          },
+          {
+            '@type': 'AdministrativeArea',
+            name: 'Bratislavský kraj',
+          },
+        ],
         priceRange: '$$',
         image: 'https://kvp-servis.sk/favicon.ico',
         hasOfferCatalog: {
@@ -61,9 +70,11 @@ useHead({
               '@type': 'OfferCatalog',
               name: 'Kúrenie',
               itemListElement: [
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Inštalácia a servis kotlov' } },
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Podlahové kúrenie' } },
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Radiátorové systémy' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Inštalácia kondenzačných kotlov' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Servis plynových kotlov Buderus, Vaillant, Protherm' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Podlahové kúrenie — inštalácia, preplach a chemické čistenie' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Radiátorové systémy a výmena termostatických ventilov' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Vyvložkovanie komínov' } },
               ],
             },
             {
@@ -79,9 +90,10 @@ useHead({
               '@type': 'OfferCatalog',
               name: 'Plyn',
               itemListElement: [
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Plynové inštalácie' } },
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Bezpečnostné kontroly a revízie' } },
-                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Servis plynových kotlov' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Plynové rozvody a inštalácie' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Pripojenie sporákov a varných dosiek' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Detekcia a oprava úniku plynu' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Tlakové skúšky a výmena regulátorov plynu' } },
               ],
             },
           ],

@@ -1,0 +1,1305 @@
+﻿2026-03-12T17:23:59.9695778Z ##[group]Run docker/build-push-action@v5
+2026-03-12T17:23:59.9696042Z with:
+2026-03-12T17:23:59.9696213Z   context: .
+2026-03-12T17:23:59.9696379Z   push: true
+2026-03-12T17:23:59.9696890Z   tags: ghcr.io/dem0n1337/kvp-servis-modern:master
+ghcr.io/dem0n1337/kvp-servis-modern:latest
+ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1
+2026-03-12T17:23:59.9698884Z   labels: org.opencontainers.image.created=2026-03-12T17:23:59.881Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=6e23cc112660d7cb9d0593e791287c8c6ab1f792
+org.opencontainers.image.source=https://github.com/dem0n1337/kvp-servis-modern
+org.opencontainers.image.title=kvp-servis-modern
+org.opencontainers.image.url=https://github.com/dem0n1337/kvp-servis-modern
+org.opencontainers.image.version=master
+2026-03-12T17:23:59.9700550Z   cache-from: type=gha
+2026-03-12T17:23:59.9700749Z   cache-to: type=gha,mode=max
+2026-03-12T17:23:59.9700976Z   platforms: linux/amd64,linux/arm64
+2026-03-12T17:23:59.9701246Z   load: false
+2026-03-12T17:23:59.9701404Z   no-cache: false
+2026-03-12T17:23:59.9701572Z   pull: false
+2026-03-12T17:23:59.9701878Z   github-token: ***
+2026-03-12T17:23:59.9702044Z env:
+2026-03-12T17:23:59.9702195Z   REGISTRY: ghcr.io
+2026-03-12T17:23:59.9702575Z   IMAGE_NAME: dem0n1337/kvp-servis-modern
+2026-03-12T17:23:59.9703076Z   DOCKER_METADATA_OUTPUT_VERSION: master
+2026-03-12T17:23:59.9703774Z   DOCKER_METADATA_OUTPUT_TAGS: ghcr.io/dem0n1337/kvp-servis-modern:master
+ghcr.io/dem0n1337/kvp-servis-modern:latest
+ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1
+2026-03-12T17:23:59.9704487Z   DOCKER_METADATA_OUTPUT_TAG_NAMES: master
+latest
+master-6e23cc1
+2026-03-12T17:23:59.9706266Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2026-03-12T17:23:59.881Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=6e23cc112660d7cb9d0593e791287c8c6ab1f792
+org.opencontainers.image.source=https://github.com/dem0n1337/kvp-servis-modern
+org.opencontainers.image.title=kvp-servis-modern
+org.opencontainers.image.url=https://github.com/dem0n1337/kvp-servis-modern
+org.opencontainers.image.version=master
+2026-03-12T17:23:59.9709720Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2026-03-12T17:23:59.881Z
+manifest:org.opencontainers.image.description=
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=6e23cc112660d7cb9d0593e791287c8c6ab1f792
+manifest:org.opencontainers.image.source=https://github.com/dem0n1337/kvp-servis-modern
+manifest:org.opencontainers.image.title=kvp-servis-modern
+manifest:org.opencontainers.image.url=https://github.com/dem0n1337/kvp-servis-modern
+manifest:org.opencontainers.image.version=master
+2026-03-12T17:23:59.9715720Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["ghcr.io/dem0n1337/kvp-servis-modern:master","ghcr.io/dem0n1337/kvp-servis-modern:latest","ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1"],"tag-names":["master","latest","master-6e23cc1"],"labels":{"org.opencontainers.image.created":"2026-03-12T17:23:59.881Z","org.opencontainers.image.description":"","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"6e23cc112660d7cb9d0593e791287c8c6ab1f792","org.opencontainers.image.source":"https://github.com/dem0n1337/kvp-servis-modern","org.opencontainers.image.title":"kvp-servis-modern","org.opencontainers.image.url":"https://github.com/dem0n1337/kvp-servis-modern","org.opencontainers.image.version":"master"},"annotations":["manifest:org.opencontainers.image.created=2026-03-12T17:23:59.881Z","manifest:org.opencontainers.image.description=","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=6e23cc112660d7cb9d0593e791287c8c6ab1f792","manifest:org.opencontainers.image.source=https://github.com/dem0n1337/kvp-servis-modern","manifest:org.opencontainers.image.title=kvp-servis-modern","manifest:org.opencontainers.image.url=https://github.com/dem0n1337/kvp-servis-modern","manifest:org.opencontainers.image.version=master"]}
+2026-03-12T17:23:59.9720764Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-vrNG0h/docker-metadata-action-bake-tags.json
+2026-03-12T17:23:59.9721614Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-vrNG0h/docker-metadata-action-bake-labels.json
+2026-03-12T17:23:59.9722577Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-vrNG0h/docker-metadata-action-bake-annotations.json
+2026-03-12T17:23:59.9723437Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-vrNG0h/docker-metadata-action-bake.json
+2026-03-12T17:23:59.9723932Z ##[endgroup]
+2026-03-12T17:24:00.2143089Z ##[group]GitHub Actions runtime token ACs
+2026-03-12T17:24:00.2153641Z refs/heads/master: read/write
+2026-03-12T17:24:00.2163316Z ##[endgroup]
+2026-03-12T17:24:00.2164132Z ##[group]Docker info
+2026-03-12T17:24:00.2196171Z [command]/usr/bin/docker version
+2026-03-12T17:24:00.2385841Z Client: Docker Engine - Community
+2026-03-12T17:24:00.2386333Z  Version:           28.0.4
+2026-03-12T17:24:00.2386636Z  API version:       1.48
+2026-03-12T17:24:00.2386959Z  Go version:        go1.23.7
+2026-03-12T17:24:00.2387429Z  Git commit:        b8034c0
+2026-03-12T17:24:00.2387787Z  Built:             Tue Mar 25 15:07:16 2025
+2026-03-12T17:24:00.2388170Z  OS/Arch:           linux/amd64
+2026-03-12T17:24:00.2388638Z  Context:           default
+2026-03-12T17:24:00.2388883Z 
+2026-03-12T17:24:00.2389777Z Server: Docker Engine - Community
+2026-03-12T17:24:00.2390713Z  Engine:
+2026-03-12T17:24:00.2390979Z   Version:          28.0.4
+2026-03-12T17:24:00.2391372Z   API version:      1.48 (minimum version 1.24)
+2026-03-12T17:24:00.2391816Z   Go version:       go1.23.7
+2026-03-12T17:24:00.2392162Z   Git commit:       6430e49
+2026-03-12T17:24:00.2392975Z   Built:            Tue Mar 25 15:07:16 2025
+2026-03-12T17:24:00.2393408Z   OS/Arch:          linux/amd64
+2026-03-12T17:24:00.2393764Z   Experimental:     false
+2026-03-12T17:24:00.2394110Z  containerd:
+2026-03-12T17:24:00.2394383Z   Version:          v2.2.1
+2026-03-12T17:24:00.2394780Z   GitCommit:        dea7da592f5d1d2b7755e3a161be07f43fad8f75
+2026-03-12T17:24:00.2395217Z  runc:
+2026-03-12T17:24:00.2395476Z   Version:          1.3.4
+2026-03-12T17:24:00.2395810Z   GitCommit:        v1.3.4-0-gd6d73eb8
+2026-03-12T17:24:00.2396124Z  docker-init:
+2026-03-12T17:24:00.2396394Z   Version:          0.19.0
+2026-03-12T17:24:00.2396719Z   GitCommit:        de40ad0
+2026-03-12T17:24:00.2424395Z [command]/usr/bin/docker info
+2026-03-12T17:24:00.3040852Z Client: Docker Engine - Community
+2026-03-12T17:24:00.3043257Z  Version:    28.0.4
+2026-03-12T17:24:00.3043598Z  Context:    default
+2026-03-12T17:24:00.3043883Z  Debug Mode: false
+2026-03-12T17:24:00.3044163Z  Plugins:
+2026-03-12T17:24:00.3045436Z   buildx: Docker Buildx (Docker Inc.)
+2026-03-12T17:24:00.3045804Z     Version:  v0.31.1
+2026-03-12T17:24:00.3046231Z     Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+2026-03-12T17:24:00.3046816Z   compose: Docker Compose (Docker Inc.)
+2026-03-12T17:24:00.3047244Z     Version:  v2.38.2
+2026-03-12T17:24:00.3047684Z     Path:     /usr/libexec/docker/cli-plugins/docker-compose
+2026-03-12T17:24:00.3048088Z 
+2026-03-12T17:24:00.3048206Z Server:
+2026-03-12T17:24:00.3048481Z  Containers: 1
+2026-03-12T17:24:00.3048773Z   Running: 1
+2026-03-12T17:24:00.3049071Z   Paused: 0
+2026-03-12T17:24:00.3049352Z   Stopped: 0
+2026-03-12T17:24:00.3049615Z  Images: 2
+2026-03-12T17:24:00.3049895Z  Server Version: 28.0.4
+2026-03-12T17:24:00.3050233Z  Storage Driver: overlay2
+2026-03-12T17:24:00.3050607Z   Backing Filesystem: extfs
+2026-03-12T17:24:00.3050972Z   Supports d_type: true
+2026-03-12T17:24:00.3051299Z   Using metacopy: false
+2026-03-12T17:24:00.3051633Z   Native Overlay Diff: false
+2026-03-12T17:24:00.3051999Z   userxattr: false
+2026-03-12T17:24:00.3052276Z  Logging Driver: json-file
+2026-03-12T17:24:00.3053409Z  Cgroup Driver: systemd
+2026-03-12T17:24:00.3053716Z  Cgroup Version: 2
+2026-03-12T17:24:00.3054285Z  Plugins:
+2026-03-12T17:24:00.3054579Z   Volume: local
+2026-03-12T17:24:00.3054919Z   Network: bridge host ipvlan macvlan null overlay
+2026-03-12T17:24:00.3055597Z   Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+2026-03-12T17:24:00.3056098Z  Swarm: inactive
+2026-03-12T17:24:00.3056409Z  Runtimes: io.containerd.runc.v2 runc
+2026-03-12T17:24:00.3056750Z  Default Runtime: runc
+2026-03-12T17:24:00.3057035Z  Init Binary: docker-init
+2026-03-12T17:24:00.3057461Z  containerd version: dea7da592f5d1d2b7755e3a161be07f43fad8f75
+2026-03-12T17:24:00.3057931Z  runc version: v1.3.4-0-gd6d73eb8
+2026-03-12T17:24:00.3058264Z  init version: de40ad0
+2026-03-12T17:24:00.3058554Z  Security Options:
+2026-03-12T17:24:00.3058848Z   apparmor
+2026-03-12T17:24:00.3059089Z   seccomp
+2026-03-12T17:24:00.3059353Z    Profile: builtin
+2026-03-12T17:24:00.3059603Z   cgroupns
+2026-03-12T17:24:00.3059854Z  Kernel Version: 6.14.0-1017-azure
+2026-03-12T17:24:00.3060203Z  Operating System: Ubuntu 24.04.3 LTS
+2026-03-12T17:24:00.3060578Z  OSType: linux
+2026-03-12T17:24:00.3060841Z  Architecture: x86_64
+2026-03-12T17:24:00.3061105Z  CPUs: 2
+2026-03-12T17:24:00.3063054Z  Total Memory: 7.756GiB
+2026-03-12T17:24:00.3063379Z  Name: runnervm0kj6c
+2026-03-12T17:24:00.3063687Z  ID: 189d60bd-a351-4054-af4e-5414e7eef06b
+2026-03-12T17:24:00.3064083Z  Docker Root Dir: /var/lib/docker
+2026-03-12T17:24:00.3064422Z  Debug Mode: false
+2026-03-12T17:24:00.3064689Z  Username: githubactions
+2026-03-12T17:24:00.3064988Z  Experimental: false
+2026-03-12T17:24:00.3065262Z  Insecure Registries:
+2026-03-12T17:24:00.3065557Z   ::1/128
+2026-03-12T17:24:00.3065752Z   127.0.0.0/8
+2026-03-12T17:24:00.3066021Z  Live Restore Enabled: false
+2026-03-12T17:24:00.3066228Z 
+2026-03-12T17:24:00.3066831Z ##[endgroup]
+2026-03-12T17:24:00.3067354Z ##[group]Proxy configuration
+2026-03-12T17:24:00.3067834Z No proxy configuration found
+2026-03-12T17:24:00.3069740Z ##[endgroup]
+2026-03-12T17:24:00.3720822Z ##[group]Buildx version
+2026-03-12T17:24:00.3746734Z [command]/usr/bin/docker buildx version
+2026-03-12T17:24:00.4299913Z github.com/docker/buildx v0.31.1 a2675950d46b2cb171b23c2015ca44fb88607531
+2026-03-12T17:24:00.4320820Z ##[endgroup]
+2026-03-12T17:24:00.4322801Z ##[group]Builder info
+2026-03-12T17:24:00.5248983Z {
+2026-03-12T17:24:00.5250134Z   "nodes": [
+2026-03-12T17:24:00.5250435Z     {
+2026-03-12T17:24:00.5250821Z       "name": "builder-50d45286-48e5-461a-b7c7-f8000c36bcd50",
+2026-03-12T17:24:00.5251378Z       "endpoint": "unix:///var/run/docker.sock",
+2026-03-12T17:24:00.5251824Z       "status": "running",
+2026-03-12T17:24:00.5253059Z       "buildkitd-flags": "--allow-insecure-entitlement security.insecure --allow-insecure-entitlement network.host",
+2026-03-12T17:24:00.5253864Z       "buildkit": "v0.27.1",
+2026-03-12T17:24:00.5254374Z       "platforms": "linux/amd64,linux/amd64/v2,linux/amd64/v3,linux/amd64/v4,linux/386",
+2026-03-12T17:24:00.5255338Z       "features": {
+2026-03-12T17:24:00.5255813Z         "Automatically load images to the Docker Engine image store": true,
+2026-03-12T17:24:00.5256425Z         "Cache export": true,
+2026-03-12T17:24:00.5256781Z         "Direct push": true,
+2026-03-12T17:24:00.5257139Z         "Docker exporter": true,
+2026-03-12T17:24:00.5257535Z         "Multi-platform build": true,
+2026-03-12T17:24:00.5257914Z         "OCI exporter": true
+2026-03-12T17:24:00.5258240Z       },
+2026-03-12T17:24:00.5258481Z       "labels": {
+2026-03-12T17:24:00.5258897Z         "org.mobyproject.buildkit.worker.executor": "oci",
+2026-03-12T17:24:00.5259544Z         "org.mobyproject.buildkit.worker.hostname": "e5d34c1a1c92",
+2026-03-12T17:24:00.5260197Z         "org.mobyproject.buildkit.worker.network": "host",
+2026-03-12T17:24:00.5260866Z         "org.mobyproject.buildkit.worker.oci.process-mode": "sandbox",
+2026-03-12T17:24:00.5261598Z         "org.mobyproject.buildkit.worker.selinux.enabled": "false",
+2026-03-12T17:24:00.5262224Z         "org.mobyproject.buildkit.worker.snapshotter": "overlayfs"
+2026-03-12T17:24:00.5262965Z       },
+2026-03-12T17:24:00.5263459Z       "gcPolicy": [
+2026-03-12T17:24:00.5263765Z         {
+2026-03-12T17:24:00.5264014Z           "all": false,
+2026-03-12T17:24:00.5264308Z           "filter": [
+2026-03-12T17:24:00.5264646Z             "type==source.local",
+2026-03-12T17:24:00.5265002Z             "type==exec.cachemount",
+2026-03-12T17:24:00.5265437Z             "type==source.git.checkout"
+2026-03-12T17:24:00.5265859Z           ],
+2026-03-12T17:24:00.5266163Z           "keepDuration": "48h0m0s"
+2026-03-12T17:24:00.5266531Z         },
+2026-03-12T17:24:00.5266771Z         {
+2026-03-12T17:24:00.5267038Z           "all": false,
+2026-03-12T17:24:00.5267387Z           "keepDuration": "1440h0m0s"
+2026-03-12T17:24:00.5267786Z         },
+2026-03-12T17:24:00.5268041Z         {
+2026-03-12T17:24:00.5268315Z           "all": false
+2026-03-12T17:24:00.5268651Z         },
+2026-03-12T17:24:00.5268893Z         {
+2026-03-12T17:24:00.5269114Z           "all": true
+2026-03-12T17:24:00.5269362Z         }
+2026-03-12T17:24:00.5269601Z       ]
+2026-03-12T17:24:00.5269840Z     }
+2026-03-12T17:24:00.5270071Z   ],
+2026-03-12T17:24:00.5270397Z   "name": "builder-50d45286-48e5-461a-b7c7-f8000c36bcd5",
+2026-03-12T17:24:00.5270862Z   "driver": "docker-container",
+2026-03-12T17:24:00.5271253Z   "lastActivity": "2026-03-12T17:23:51.000Z"
+2026-03-12T17:24:00.5271643Z }
+2026-03-12T17:24:00.5272249Z ##[endgroup]
+2026-03-12T17:24:00.6931789Z [command]/usr/bin/docker buildx build --cache-from type=gha --cache-to type=gha,mode=max --iidfile /home/runner/work/_temp/docker-actions-toolkit-YjaGBY/build-iidfile-e233f7e1f2.txt --label org.opencontainers.image.created=2026-03-12T17:23:59.881Z --label org.opencontainers.image.description= --label org.opencontainers.image.licenses= --label org.opencontainers.image.revision=6e23cc112660d7cb9d0593e791287c8c6ab1f792 --label org.opencontainers.image.source=https://github.com/dem0n1337/kvp-servis-modern --label org.opencontainers.image.title=kvp-servis-modern --label org.opencontainers.image.url=https://github.com/dem0n1337/kvp-servis-modern --label org.opencontainers.image.version=master --platform linux/amd64,linux/arm64 --attest type=provenance,mode=min,inline-only=true,builder-id=https://github.com/dem0n1337/kvp-servis-modern/actions/runs/23014924519 --tag ghcr.io/dem0n1337/kvp-servis-modern:master --tag ghcr.io/dem0n1337/kvp-servis-modern:latest --tag ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1 --metadata-file /home/runner/work/_temp/docker-actions-toolkit-YjaGBY/build-metadata-dd950834b0.json --push .
+2026-03-12T17:24:00.9835400Z #0 building with "builder-50d45286-48e5-461a-b7c7-f8000c36bcd5" instance using docker-container driver
+2026-03-12T17:24:00.9836443Z 
+2026-03-12T17:24:00.9837638Z #1 [internal] load build definition from Dockerfile
+2026-03-12T17:24:00.9838300Z #1 transferring dockerfile: 698B done
+2026-03-12T17:24:00.9839194Z #1 DONE 0.0s
+2026-03-12T17:24:00.9840139Z 
+2026-03-12T17:24:00.9840601Z #2 [linux/amd64 internal] load metadata for docker.io/library/node:22-bullseye-slim
+2026-03-12T17:24:01.1495039Z #2 ...
+2026-03-12T17:24:01.1495311Z 
+2026-03-12T17:24:01.1495593Z #3 [auth] library/node:pull token for registry-1.docker.io
+2026-03-12T17:24:01.1496101Z #3 DONE 0.0s
+2026-03-12T17:24:01.2994748Z 
+2026-03-12T17:24:01.2995636Z #4 [linux/arm64 internal] load metadata for docker.io/library/node:22-bullseye-slim
+2026-03-12T17:24:01.7416863Z #4 ...
+2026-03-12T17:24:01.7423757Z 
+2026-03-12T17:24:01.7424181Z #2 [linux/amd64 internal] load metadata for docker.io/library/node:22-bullseye-slim
+2026-03-12T17:24:01.7424833Z #2 DONE 0.9s
+2026-03-12T17:24:01.9139949Z 
+2026-03-12T17:24:01.9141434Z #4 [linux/arm64 internal] load metadata for docker.io/library/node:22-bullseye-slim
+2026-03-12T17:24:01.9145280Z #4 DONE 0.9s
+2026-03-12T17:24:01.9145510Z 
+2026-03-12T17:24:01.9145659Z #5 [internal] load .dockerignore
+2026-03-12T17:24:01.9146070Z #5 transferring context: 249B done
+2026-03-12T17:24:01.9146436Z #5 DONE 0.0s
+2026-03-12T17:24:01.9146587Z 
+2026-03-12T17:24:01.9146715Z #6 [internal] load build context
+2026-03-12T17:24:01.9147451Z #6 DONE 0.0s
+2026-03-12T17:24:01.9147608Z 
+2026-03-12T17:24:01.9148334Z #7 [linux/arm64 builder 1/6] FROM docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92
+2026-03-12T17:24:01.9149833Z #7 resolve docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92 done
+2026-03-12T17:24:01.9150709Z #7 DONE 0.0s
+2026-03-12T17:24:01.9150876Z 
+2026-03-12T17:24:01.9151089Z #8 importing cache manifest from gha:9138690489926149273
+2026-03-12T17:24:01.9348097Z #8 DONE 0.2s
+2026-03-12T17:24:02.1341674Z 
+2026-03-12T17:24:02.1342203Z #6 [internal] load build context
+2026-03-12T17:24:02.1345312Z #6 transferring context: 4.14MB 0.1s done
+2026-03-12T17:24:02.1345749Z #6 DONE 0.1s
+2026-03-12T17:24:02.1345963Z 
+2026-03-12T17:24:02.1346439Z #9 [linux/amd64 builder 1/6] FROM docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92
+2026-03-12T17:24:02.1347590Z #9 resolve docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92 done
+2026-03-12T17:24:02.3957162Z #9 sha256:2014abc10cd28003d066ee8be6a41c0f7be88c6b73fb40564346bd15425f67c5 449B / 449B 0.1s done
+2026-03-12T17:24:02.3959089Z #9 sha256:d067da9485cde28907cad7dbe31cd26c16d51df897b63e196db6d190d9226628 0B / 1.74MB 0.2s
+2026-03-12T17:24:02.5483388Z #9 sha256:d067da9485cde28907cad7dbe31cd26c16d51df897b63e196db6d190d9226628 1.74MB / 1.74MB 0.2s done
+2026-03-12T17:24:02.5485187Z #9 sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 0B / 49.97MB 0.2s
+2026-03-12T17:24:02.5487451Z #9 sha256:3fa0ba21f48093992968632ce1c2f465db6989de387b4d0481e6836d40f52f9f 4.08kB / 4.08kB 0.1s done
+2026-03-12T17:24:02.6993610Z #9 sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 5.24MB / 49.97MB 0.3s
+2026-03-12T17:24:02.6995670Z #9 sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7 6.29MB / 30.26MB 0.2s
+2026-03-12T17:24:02.8545962Z #9 sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 28.31MB / 49.97MB 0.5s
+2026-03-12T17:24:02.8548949Z #9 sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7 30.26MB / 30.26MB 0.3s done
+2026-03-12T17:24:02.9942116Z #9 sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 49.97MB / 49.97MB 0.7s done
+2026-03-12T17:24:02.9943739Z #9 extracting sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7
+2026-03-12T17:24:04.1709301Z #9 extracting sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7 1.3s done
+2026-03-12T17:24:04.1710698Z #9 extracting sha256:3fa0ba21f48093992968632ce1c2f465db6989de387b4d0481e6836d40f52f9f
+2026-03-12T17:24:04.3330949Z #9 extracting sha256:3fa0ba21f48093992968632ce1c2f465db6989de387b4d0481e6836d40f52f9f 0.0s done
+2026-03-12T17:24:04.3332762Z #9 extracting sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78
+2026-03-12T17:24:05.6797605Z #9 ...
+2026-03-12T17:24:05.6800266Z 
+2026-03-12T17:24:05.6801092Z #7 [linux/arm64 builder 1/6] FROM docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92
+2026-03-12T17:24:05.6802649Z #7 sha256:d966fcdb509d068dc2129be01fd22a78dff714db366b1b9ec6bde6882a5060eb 447B / 447B 0.1s done
+2026-03-12T17:24:05.6807195Z #7 sha256:3f06bbb37c5cf5dd504a03309ccae1745352dc4a6d992bdde5ef4e113c3e5245 1.74MB / 1.74MB 0.2s done
+2026-03-12T17:24:05.6811041Z #7 sha256:2de1c8edd1b51fa488358d530cc9d90d795971d1d9c35f05cc616cdfa1e88251 50.11MB / 50.11MB 0.6s done
+2026-03-12T17:24:05.6812249Z #7 sha256:d64dcd596a3e2298eb68c49b2d37b3985b32154e171638e27451069257600606 4.08kB / 4.08kB 0.2s done
+2026-03-12T17:24:05.6813573Z #7 sha256:018c0693c4a2532e5636d6115333db6d882da8f33f1f40cb3e88dbe62da21aac 28.74MB / 28.74MB 0.4s done
+2026-03-12T17:24:05.6814740Z #7 extracting sha256:018c0693c4a2532e5636d6115333db6d882da8f33f1f40cb3e88dbe62da21aac 1.3s done
+2026-03-12T17:24:05.6815800Z #7 extracting sha256:d64dcd596a3e2298eb68c49b2d37b3985b32154e171638e27451069257600606 done
+2026-03-12T17:24:05.6817116Z #7 extracting sha256:2de1c8edd1b51fa488358d530cc9d90d795971d1d9c35f05cc616cdfa1e88251 1.6s done
+2026-03-12T17:24:05.6818228Z #7 extracting sha256:3f06bbb37c5cf5dd504a03309ccae1745352dc4a6d992bdde5ef4e113c3e5245 0.1s done
+2026-03-12T17:24:05.6819325Z #7 extracting sha256:d966fcdb509d068dc2129be01fd22a78dff714db366b1b9ec6bde6882a5060eb done
+2026-03-12T17:24:05.6820064Z #7 DONE 3.6s
+2026-03-12T17:24:05.8288833Z 
+2026-03-12T17:24:05.8289579Z #10 [linux/arm64 builder 2/6] WORKDIR /app
+2026-03-12T17:24:05.8932544Z #10 ...
+2026-03-12T17:24:05.8932870Z 
+2026-03-12T17:24:05.8935370Z #9 [linux/amd64 builder 1/6] FROM docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92
+2026-03-12T17:24:05.8939982Z #9 extracting sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 1.7s done
+2026-03-12T17:24:05.8940758Z #9 DONE 4.0s
+2026-03-12T17:24:06.0403064Z 
+2026-03-12T17:24:06.0411721Z #9 [linux/amd64 builder 1/6] FROM docker.io/library/node:22-bullseye-slim@sha256:52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92
+2026-03-12T17:24:06.0413173Z #9 extracting sha256:d067da9485cde28907cad7dbe31cd26c16d51df897b63e196db6d190d9226628 0.0s done
+2026-03-12T17:24:06.0414143Z #9 extracting sha256:2014abc10cd28003d066ee8be6a41c0f7be88c6b73fb40564346bd15425f67c5 0.0s done
+2026-03-12T17:24:06.0414828Z #9 DONE 4.0s
+2026-03-12T17:24:06.0415000Z 
+2026-03-12T17:24:06.0415165Z #11 [linux/amd64 builder 2/6] WORKDIR /app
+2026-03-12T17:24:07.8351596Z #11 DONE 1.8s
+2026-03-12T17:24:07.8351924Z 
+2026-03-12T17:24:07.8352694Z #10 [linux/arm64 builder 2/6] WORKDIR /app
+2026-03-12T17:24:08.0035081Z #10 DONE 2.3s
+2026-03-12T17:24:08.0039790Z 
+2026-03-12T17:24:08.0040197Z #12 [linux/amd64 builder 3/6] COPY package*.json ./
+2026-03-12T17:24:08.0040700Z #12 DONE 0.0s
+2026-03-12T17:24:08.0040872Z 
+2026-03-12T17:24:08.0041051Z #13 [linux/arm64 builder 3/6] COPY package*.json ./
+2026-03-12T17:24:08.0041496Z #13 DONE 0.0s
+2026-03-12T17:24:08.0041645Z 
+2026-03-12T17:24:08.0049290Z #14 [linux/arm64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:24:17.9034236Z #14 ...
+2026-03-12T17:24:17.9036971Z 
+2026-03-12T17:24:17.9038745Z #15 [linux/amd64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:25:22.4077620Z #15 74.56 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2026-03-12T17:25:23.4628685Z #15 75.61 npm warn deprecated @koa/router@12.0.2: Please upgrade to v15 or higher. All reported bugs in this version are fixed in newer releases, dependencies have been updated, and security has been improved.
+2026-03-12T17:25:27.6086242Z #15 79.75 npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-03-12T17:25:29.3095942Z #15 81.46 npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-03-12T17:25:33.8626460Z #15 86.01 
+2026-03-12T17:25:33.8627206Z #15 86.01 > postinstall
+2026-03-12T17:25:33.8631902Z #15 86.01 > nuxt prepare
+2026-03-12T17:25:33.8632248Z #15 86.01 
+2026-03-12T17:25:35.9493944Z #15 88.10 │
+2026-03-12T17:25:35.9494415Z #15 88.10 ◆  Types generated in .nuxt.
+2026-03-12T17:25:36.0564666Z #15 88.20 
+2026-03-12T17:25:36.0565179Z #15 88.20 added 832 packages, and audited 834 packages in 1m
+2026-03-12T17:25:36.2245725Z #15 88.21 
+2026-03-12T17:25:36.2246168Z #15 88.21 177 packages are looking for funding
+2026-03-12T17:25:36.2247032Z #15 88.21   run `npm fund` for details
+2026-03-12T17:25:36.2247375Z #15 88.22 
+2026-03-12T17:25:36.2247617Z #15 88.22 6 high severity vulnerabilities
+2026-03-12T17:25:36.2247950Z #15 88.22 
+2026-03-12T17:25:36.2248174Z #15 88.22 To address all issues, run:
+2026-03-12T17:25:36.2248511Z #15 88.22   npm audit fix
+2026-03-12T17:25:36.2248789Z #15 88.22 
+2026-03-12T17:25:36.2249024Z #15 88.22 Run `npm audit` for details.
+2026-03-12T17:25:36.2249368Z #15 88.22 npm notice
+2026-03-12T17:25:36.2249811Z #15 88.22 npm notice New major version of npm available! 10.9.4 -> 11.11.1
+2026-03-12T17:25:36.2250506Z #15 88.22 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.1
+2026-03-12T17:25:36.2251136Z #15 88.22 npm notice To update run: npm install -g npm@11.11.1
+2026-03-12T17:25:36.2251611Z #15 88.22 npm notice
+2026-03-12T17:25:38.6919483Z #15 DONE 90.8s
+2026-03-12T17:25:38.6920008Z 
+2026-03-12T17:25:38.6920596Z #14 [linux/arm64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:25:38.8443952Z #14 ...
+2026-03-12T17:25:38.8444559Z 
+2026-03-12T17:25:38.8444929Z #16 [linux/amd64 builder 5/6] COPY . .
+2026-03-12T17:25:39.0182022Z #16 DONE 0.3s
+2026-03-12T17:25:39.0182777Z 
+2026-03-12T17:25:39.0183389Z #14 [linux/arm64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:25:39.1714535Z #14 ...
+2026-03-12T17:25:39.1714776Z 
+2026-03-12T17:25:39.1714982Z #17 [linux/amd64 builder 6/6] RUN npm run build
+2026-03-12T17:25:39.1859294Z #17 0.166 
+2026-03-12T17:25:39.1859869Z #17 0.166 > build
+2026-03-12T17:25:39.1861404Z #17 0.166 > nuxt build
+2026-03-12T17:25:39.1861828Z #17 0.166 
+2026-03-12T17:25:39.5051481Z #17 0.485 ┌  Building Nuxt for production...
+2026-03-12T17:25:39.7980826Z #17 0.778 │
+2026-03-12T17:25:39.7983246Z #17 0.778 ●  Nuxt 4.4.2 (with Nitro 2.13.1, Vite 7.3.1 and Vue 3.5.30)
+2026-03-12T17:25:40.4930688Z #17 1.471 [nuxt:tailwindcss] ℹ Using default Tailwind CSS file
+2026-03-12T17:25:40.6520429Z #17 1.480 [nuxt:google-fonts] ◐ Downloading fonts...
+2026-03-12T17:25:40.6609349Z #17 1.641 [nuxt:google-fonts] ✔ https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap
+2026-03-12T17:25:40.8672544Z #17 1.735 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-cyrillic
+2026-03-12T17:25:40.8673715Z #17 1.847 [nuxt:google-fonts] ℹ EB_Garamond-normal-400
+2026-03-12T17:25:40.9993993Z #17 1.857 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-greek
+2026-03-12T17:25:40.9995095Z #17 1.934 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-latin
+2026-03-12T17:25:40.9996072Z #17 1.979 [nuxt:google-fonts] ℹ Montserrat-normal-100-cyrillic
+2026-03-12T17:25:41.1616653Z #17 2.048 [nuxt:google-fonts] ℹ Montserrat-normal-100
+2026-03-12T17:25:41.1617736Z #17 2.141 [nuxt:google-fonts] ℹ Montserrat-normal-100-latin
+2026-03-12T17:25:41.4007685Z #17 2.181 [nuxt:google-fonts] ✔ Download fonts completed.
+2026-03-12T17:25:41.4008636Z #17 2.182 [nuxt:google-fonts] 
+2026-03-12T17:25:41.4011667Z #17 2.230 [@nuxtjs/sitemap] ℹ No dynamic sources detected. Consider enabling zeroRuntime to reduce server bundle size. See https://nuxtseo.com/sitemap/guides/zero-runtime
+2026-03-12T17:25:43.4188893Z #17 4.399 │
+2026-03-12T17:25:43.4189615Z #17 4.399 ●  Nitro preset: node-server
+2026-03-12T17:25:46.0244996Z #17 7.004 ℹ Building client...
+2026-03-12T17:25:46.2679634Z #17 7.035 ℹ vite v7.3.1 building client environment for production...
+2026-03-12T17:25:46.2680219Z #17 7.071 
+2026-03-12T17:25:46.2681615Z #17 7.071  WARN  [plugin nuxt:module-preload-polyfill] Sourcemap is likely to be incorrect: a plugin (nuxt:module-preload-polyfill) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+2026-03-12T17:25:46.2683475Z #17 7.071 
+2026-03-12T17:25:46.2683909Z #17 7.097 ℹ transforming...
+2026-03-12T17:25:54.3212854Z #17 15.30 ℹ ✓ 255 modules transformed.
+2026-03-12T17:25:54.6250787Z #17 15.60 ℹ rendering chunks...
+2026-03-12T17:25:54.8430867Z #17 15.82 ℹ computing gzip size...
+2026-03-12T17:25:55.0573273Z #17 15.84 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-vietnamese.k7S-YeeD.woff2      12.93 kB
+2026-03-12T17:25:55.0576221Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-vietnamese.B-YjCn1Q.woff2     13.13 kB
+2026-03-12T17:25:55.0577801Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-greek-ext.jFu40_Kw.woff2      15.32 kB
+2026-03-12T17:25:55.0579450Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-greek.Dm53BPoz.woff2          19.97 kB
+2026-03-12T17:25:55.0581123Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-cyrillic.EAA9jha_.woff2        23.83 kB
+2026-03-12T17:25:55.0582959Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/manifest.json                                              24.92 kB │ gzip:  1.40 kB
+2026-03-12T17:25:55.0584646Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-cyrillic.DZVSGMRt.woff2       26.26 kB
+2026-03-12T17:25:55.0586377Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-cyrillic-ext.CO5hGrJv.woff2    26.37 kB
+2026-03-12T17:25:55.0588108Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-cyrillic-ext.ByugaZpy.woff2   33.88 kB
+2026-03-12T17:25:55.0589782Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-latin.l_AIctKy.woff2           37.96 kB
+2026-03-12T17:25:55.0591483Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-latin.BUNBP5ar.woff2          41.32 kB
+2026-03-12T17:25:55.0595329Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-latin-ext.BsZE-iaG.woff2       70.69 kB
+2026-03-12T17:25:55.0597046Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-latin-ext.Bgo24x86.woff2     116.32 kB
+2026-03-12T17:25:55.0598793Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/fotogaleria.BU-iMAp_.css                              0.53 kB │ gzip:  0.24 kB
+2026-03-12T17:25:55.0600562Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/kontakt.gkJFy2J3.css                                  0.53 kB │ gzip:  0.24 kB
+2026-03-12T17:25:55.0602291Z #17 15.85 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/index.BCsnRuHd.css                                    1.19 kB │ gzip:  0.46 kB
+2026-03-12T17:25:55.0604111Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-500.BENb_mjk.css                                1.91 kB │ gzip:  0.73 kB
+2026-03-12T17:25:55.0605857Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-404._yXoGkXB.css                                2.43 kB │ gzip:  0.86 kB
+2026-03-12T17:25:55.0608023Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sluzby.CQiZbPYe.css                                   4.71 kB │ gzip:  1.22 kB
+2026-03-12T17:25:55.0609777Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/entry.DU1AfspL.css                                   67.31 kB │ gzip:  9.16 kB
+2026-03-12T17:25:55.0611456Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DlAUqK2U.js                                           0.09 kB │ gzip:  0.10 kB
+2026-03-12T17:25:55.0613198Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DdTmQg3G.js                                           3.32 kB │ gzip:  1.10 kB
+2026-03-12T17:25:55.0614844Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/8ZSG5TDJ.js                                           3.48 kB │ gzip:  1.56 kB
+2026-03-12T17:25:55.0616473Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/uD5P5_XK.js                                           3.79 kB │ gzip:  1.71 kB
+2026-03-12T17:25:55.0618066Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DHmWjBaf.js                                           3.89 kB │ gzip:  1.92 kB
+2026-03-12T17:25:55.0619863Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DphqQICj.js                                           5.35 kB │ gzip:  2.11 kB
+2026-03-12T17:25:55.0621286Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/qtTl0eMF.js                                          10.06 kB │ gzip:  3.39 kB
+2026-03-12T17:25:55.0622841Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BoiXLBdZ.js                                          10.85 kB │ gzip:  3.72 kB
+2026-03-12T17:25:55.0624472Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BZpTQGcU.js                                          16.27 kB │ gzip:  4.91 kB
+2026-03-12T17:25:55.0626108Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/D3wAYpS0.js                                          17.16 kB │ gzip:  5.27 kB
+2026-03-12T17:25:55.0627773Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/C8nBGPD0.js                                          26.68 kB │ gzip:  8.42 kB
+2026-03-12T17:25:55.0629424Z #17 15.86 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Bm8efQhm.js                                          32.40 kB │ gzip:  4.20 kB
+2026-03-12T17:25:55.0631064Z #17 15.87 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/B2ZS1KJT.js                                         230.27 kB │ gzip: 86.77 kB
+2026-03-12T17:25:55.0632089Z #17 15.87 ℹ ✓ built in 8.83s
+2026-03-12T17:25:55.0632650Z #17 15.87 ✔ Client built in 8861ms
+2026-03-12T17:25:55.0633149Z #17 15.87 ℹ Building server...
+2026-03-12T17:25:55.0633794Z #17 15.88 ℹ vite v7.3.1 building ssr environment for production...
+2026-03-12T17:25:55.0634464Z #17 15.89 ℹ transforming...
+2026-03-12T17:25:58.7216607Z #17 19.70 ℹ ✓ 131 modules transformed.
+2026-03-12T17:25:58.8431515Z #17 19.82 ℹ rendering chunks...
+2026-03-12T17:25:59.2049558Z #17 20.18 ℹ ✓ built in 4.31s
+2026-03-12T17:25:59.3729625Z #17 20.20 ✔ Server built in 4329ms
+2026-03-12T17:25:59.3827963Z #17 20.36 [nitro] ✔ Generated public .output/public
+2026-03-12T17:25:59.5367367Z #17 20.52 [nitro] ℹ Building Nuxt Nitro server (preset: node-server, compatibility date: 2025-07-15)
+2026-03-12T17:26:08.3220550Z #17 29.30 [nitro] ✔ Nuxt Nitro server built
+2026-03-12T17:26:08.5885238Z #17 29.57   ├─ .output/server/chunks/_/error-500.mjs (5.09 kB) (2.07 kB gzip)
+2026-03-12T17:26:08.5889466Z #17 29.57   ├─ .output/server/chunks/_/error-500.mjs.map (182 B) (154 B gzip)
+2026-03-12T17:26:08.5890356Z #17 29.57   ├─ .output/server/chunks/build/_plugin-vue_export-helper-1tPrXgE0.mjs (254 B) (201 B gzip)
+2026-03-12T17:26:08.5891581Z #17 29.57   ├─ .output/server/chunks/build/_plugin-vue_export-helper-1tPrXgE0.mjs.map (225 B) (169 B gzip)
+2026-03-12T17:26:08.5892716Z #17 29.57   ├─ .output/server/chunks/build/client.precomputed.mjs (46.6 kB) (2.54 kB gzip)
+2026-03-12T17:26:08.5893652Z #17 29.57   ├─ .output/server/chunks/build/client.precomputed.mjs.map (188 B) (150 B gzip)
+2026-03-12T17:26:08.5899056Z #17 29.57   ├─ .output/server/chunks/build/default-BJbRcysM.mjs (16.3 kB) (3.87 kB gzip)
+2026-03-12T17:26:08.5899966Z #17 29.57   ├─ .output/server/chunks/build/default-BJbRcysM.mjs.map (189 B) (159 B gzip)
+2026-03-12T17:26:08.5900855Z #17 29.57   ├─ .output/server/chunks/build/error-404-BygqSqaH.mjs (5.81 kB) (2.33 kB gzip)
+2026-03-12T17:26:08.5907183Z #17 29.57   ├─ .output/server/chunks/build/error-404-BygqSqaH.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:26:08.5910444Z #17 29.57   ├─ .output/server/chunks/build/error-404-styles.DtuF77Et.mjs (2.72 kB) (985 B gzip)
+2026-03-12T17:26:08.5911695Z #17 29.57   ├─ .output/server/chunks/build/error-404-styles.DtuF77Et.mjs.map (317 B) (190 B gzip)
+2026-03-12T17:26:08.5913410Z #17 29.57   ├─ .output/server/chunks/build/error-500-C0zRFqdz.mjs (5 kB) (2.05 kB gzip)
+2026-03-12T17:26:08.5914365Z #17 29.57   ├─ .output/server/chunks/build/error-500-C0zRFqdz.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:26:08.5915396Z #17 29.57   ├─ .output/server/chunks/build/error-500-styles.3g_bWYX3.mjs (2.19 kB) (861 B gzip)
+2026-03-12T17:26:08.5917078Z #17 29.57   ├─ .output/server/chunks/build/error-500-styles.3g_bWYX3.mjs.map (317 B) (191 B gzip)
+2026-03-12T17:26:08.5918226Z #17 29.57   ├─ .output/server/chunks/build/fotogaleria-CIVZfpBZ.mjs (14.8 kB) (4.24 kB gzip)
+2026-03-12T17:26:08.5919073Z #17 29.57   ├─ .output/server/chunks/build/fotogaleria-CIVZfpBZ.mjs.map (197 B) (161 B gzip)
+2026-03-12T17:26:08.5920002Z #17 29.57   ├─ .output/server/chunks/build/fotogaleria-styles.Bpnf8Cw6.mjs (811 B) (366 B gzip)
+2026-03-12T17:26:08.5920962Z #17 29.57   ├─ .output/server/chunks/build/fotogaleria-styles.Bpnf8Cw6.mjs.map (323 B) (191 B gzip)
+2026-03-12T17:26:08.5921828Z #17 29.57   ├─ .output/server/chunks/build/index-BgDNc12G.mjs (34.2 kB) (6.69 kB gzip)
+2026-03-12T17:26:08.5922798Z #17 29.57   ├─ .output/server/chunks/build/index-BgDNc12G.mjs.map (185 B) (158 B gzip)
+2026-03-12T17:26:08.5923795Z #17 29.57   ├─ .output/server/chunks/build/index-styles.gMN43g9P.mjs (781 B) (361 B gzip)
+2026-03-12T17:26:08.5924822Z #17 29.57   ├─ .output/server/chunks/build/index-styles.gMN43g9P.mjs.map (305 B) (187 B gzip)
+2026-03-12T17:26:08.5925984Z #17 29.57   ├─ .output/server/chunks/build/kontakt-DvR64yf2.mjs (17.5 kB) (4.25 kB gzip)
+2026-03-12T17:26:08.5926932Z #17 29.57   ├─ .output/server/chunks/build/kontakt-DvR64yf2.mjs.map (209 B) (171 B gzip)
+2026-03-12T17:26:08.5928000Z #17 29.57   ├─ .output/server/chunks/build/kontakt-styles.DTrMtlNs.mjs (791 B) (365 B gzip)
+2026-03-12T17:26:08.5929184Z #17 29.57   ├─ .output/server/chunks/build/kontakt-styles.DTrMtlNs.mjs.map (311 B) (189 B gzip)
+2026-03-12T17:26:08.5930278Z #17 29.57   ├─ .output/server/chunks/build/Marquee-styles.BkokWqNg.mjs (477 B) (282 B gzip)
+2026-03-12T17:26:08.5931349Z #17 29.57   ├─ .output/server/chunks/build/Marquee-styles.BkokWqNg.mjs.map (311 B) (187 B gzip)
+2026-03-12T17:26:08.5932555Z #17 29.57   ├─ .output/server/chunks/build/nuxt-link-CFcOSPqC.mjs (9.7 kB) (2.53 kB gzip)
+2026-03-12T17:26:08.5933618Z #17 29.57   ├─ .output/server/chunks/build/nuxt-link-CFcOSPqC.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:26:08.5934644Z #17 29.57   ├─ .output/server/chunks/build/SectionBackground-D0XNfP4O.mjs (5.84 kB) (1.53 kB gzip)
+2026-03-12T17:26:08.5935929Z #17 29.57   ├─ .output/server/chunks/build/SectionBackground-D0XNfP4O.mjs.map (209 B) (168 B gzip)
+2026-03-12T17:26:08.5936844Z #17 29.57   ├─ .output/server/chunks/build/server.mjs (111 kB) (27.5 kB gzip)
+2026-03-12T17:26:08.5937608Z #17 29.57   ├─ .output/server/chunks/build/server.mjs.map (243 B) (169 B gzip)
+2026-03-12T17:26:08.5938423Z #17 29.57   ├─ .output/server/chunks/build/sluzby-n0SXDGut.mjs (42.3 kB) (5.1 kB gzip)
+2026-03-12T17:26:08.5939313Z #17 29.57   ├─ .output/server/chunks/build/sluzby-n0SXDGut.mjs.map (187 B) (159 B gzip)
+2026-03-12T17:26:08.5940398Z #17 29.57   ├─ .output/server/chunks/build/sluzby-styles.Cphq8NAB.mjs (4.97 kB) (1.35 kB gzip)
+2026-03-12T17:26:08.5941640Z #17 29.57   ├─ .output/server/chunks/build/sluzby-styles.Cphq8NAB.mjs.map (308 B) (190 B gzip)
+2026-03-12T17:26:08.5942976Z #17 29.57   ├─ .output/server/chunks/build/styles.mjs (2.18 kB) (522 B gzip)
+2026-03-12T17:26:08.5943874Z #17 29.57   ├─ .output/server/chunks/build/styles.mjs.map (164 B) (142 B gzip)
+2026-03-12T17:26:08.5944926Z #17 29.57   ├─ .output/server/chunks/build/TextHighlight-styles.bTr8cotg.mjs (738 B) (353 B gzip)
+2026-03-12T17:26:08.5946151Z #17 29.57   ├─ .output/server/chunks/build/TextHighlight-styles.bTr8cotg.mjs.map (329 B) (194 B gzip)
+2026-03-12T17:26:08.5947257Z #17 29.57   ├─ .output/server/chunks/build/utils-H80jjgLf.mjs (196 B) (166 B gzip)
+2026-03-12T17:26:08.5948206Z #17 29.57   ├─ .output/server/chunks/build/utils-H80jjgLf.mjs.map (185 B) (156 B gzip)
+2026-03-12T17:26:08.5949428Z #17 29.57   ├─ .output/server/chunks/build/virtual_public-BjYmNEyp.mjs (4.4 kB) (1.54 kB gzip)
+2026-03-12T17:26:08.5950722Z #17 29.57   ├─ .output/server/chunks/build/virtual_public-BjYmNEyp.mjs.map (203 B) (163 B gzip)
+2026-03-12T17:26:08.5951605Z #17 29.57   ├─ .output/server/chunks/nitro/nitro.mjs (293 kB) (69.7 kB gzip)
+2026-03-12T17:26:08.5952517Z #17 29.57   ├─ .output/server/chunks/nitro/nitro.mjs.map (5.36 kB) (1.14 kB gzip)
+2026-03-12T17:26:08.5953623Z #17 29.57   ├─ .output/server/chunks/routes/api/contact.post.mjs (2.52 kB) (1.06 kB gzip)
+2026-03-12T17:26:08.5954556Z #17 29.57   ├─ .output/server/chunks/routes/api/contact.post.mjs.map (1.54 kB) (419 B gzip)
+2026-03-12T17:26:08.5955375Z #17 29.57   ├─ .output/server/chunks/routes/renderer.mjs (18.4 kB) (6.19 kB gzip)
+2026-03-12T17:26:08.5956130Z #17 29.57   ├─ .output/server/chunks/routes/renderer.mjs.map (845 B) (273 B gzip)
+2026-03-12T17:26:08.5956970Z #17 29.57   ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs (94 B) (100 B gzip)
+2026-03-12T17:26:08.5957925Z #17 29.57   ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs.map (90 B) (98 B gzip)
+2026-03-12T17:26:08.5958847Z #17 29.57   ├─ .output/server/chunks/virtual/child-sources.mjs (84 B) (86 B gzip)
+2026-03-12T17:26:08.5959788Z #17 29.57   ├─ .output/server/chunks/virtual/child-sources.mjs.map (82 B) (90 B gzip)
+2026-03-12T17:26:08.5960681Z #17 29.57   ├─ .output/server/chunks/virtual/global-sources.mjs (653 B) (292 B gzip)
+2026-03-12T17:26:08.5961582Z #17 29.57   ├─ .output/server/chunks/virtual/global-sources.mjs.map (108 B) (90 B gzip)
+2026-03-12T17:26:08.5962473Z #17 29.57   ├─ .output/server/index.mjs (411 B) (227 B gzip)
+2026-03-12T17:26:08.5963105Z #17 29.57   └─ .output/server/package.json (1.14 kB) (474 B gzip)
+2026-03-12T17:26:08.5963687Z #17 29.57 Σ Total size: 3.2 MB (782 kB gzip)
+2026-03-12T17:26:08.7418335Z #17 29.57 [nitro] ✔ You can preview this build using node .output/server/index.mjs
+2026-03-12T17:26:08.7420940Z #17 29.57 │
+2026-03-12T17:26:08.7421434Z #17 29.57 └  ✨ Build complete!
+2026-03-12T17:26:09.0843240Z #17 DONE 30.1s
+2026-03-12T17:26:09.0843715Z 
+2026-03-12T17:26:09.0844162Z #14 [linux/arm64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:26:09.7950444Z #14 ...
+2026-03-12T17:26:09.7951002Z 
+2026-03-12T17:26:09.7951642Z #18 [linux/amd64 runner 3/6] COPY --from=builder /app/.output ./
+2026-03-12T17:26:10.0142895Z #18 DONE 0.1s
+2026-03-12T17:26:10.0145231Z 
+2026-03-12T17:26:10.0145847Z #19 [linux/amd64 runner 4/6] RUN addgroup --system --gid 1001 nodejs
+2026-03-12T17:26:10.0146670Z #19 0.143 Adding group `nodejs' (GID 1001) ...
+2026-03-12T17:26:10.1510679Z #19 0.157 Done.
+2026-03-12T17:26:10.1511287Z #19 DONE 0.2s
+2026-03-12T17:26:10.1511508Z 
+2026-03-12T17:26:10.1511872Z #20 [linux/amd64 runner 5/6] RUN adduser --system --uid 1001 nuxtjs
+2026-03-12T17:26:10.1512658Z #20 0.114 Adding system user `nuxtjs' (UID 1001) ...
+2026-03-12T17:26:10.1513436Z #20 0.114 Adding new user `nuxtjs' (UID 1001) with group `nogroup' ...
+2026-03-12T17:26:10.3701582Z #20 0.162 Creating home directory `/home/nuxtjs' ...
+2026-03-12T17:26:10.3702174Z #20 DONE 0.2s
+2026-03-12T17:26:10.3702586Z 
+2026-03-12T17:26:10.3702830Z #21 [linux/amd64 runner 6/6] RUN chown -R nuxtjs:nodejs /app
+2026-03-12T17:26:10.6606906Z #21 DONE 0.4s
+2026-03-12T17:26:10.6610960Z 
+2026-03-12T17:26:10.6611452Z #14 [linux/arm64 builder 4/6] RUN rm -rf node_modules package-lock.json && npm install
+2026-03-12T17:27:42.7075283Z #14 214.9 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2026-03-12T17:27:47.4822124Z #14 219.6 npm warn deprecated @koa/router@12.0.2: Please upgrade to v15 or higher. All reported bugs in this version are fixed in newer releases, dependencies have been updated, and security has been improved.
+2026-03-12T17:28:07.4037566Z #14 239.5 npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-03-12T17:28:15.8288713Z #14 248.0 npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-03-12T17:28:45.0042579Z #14 277.2 
+2026-03-12T17:28:45.0043110Z #14 277.2 > postinstall
+2026-03-12T17:28:45.0045051Z #14 277.2 > nuxt prepare
+2026-03-12T17:28:45.0045400Z #14 277.2 
+2026-03-12T17:29:06.3293947Z #14 298.5 │
+2026-03-12T17:29:06.3294691Z #14 298.5 ◆  Types generated in .nuxt.
+2026-03-12T17:29:06.7106359Z #14 298.9 
+2026-03-12T17:29:06.7107162Z #14 298.9 added 832 packages, and audited 834 packages in 5m
+2026-03-12T17:29:06.8201724Z #14 298.9 
+2026-03-12T17:29:06.8208656Z #14 298.9 177 packages are looking for funding
+2026-03-12T17:29:06.8210073Z #14 298.9   run `npm fund` for details
+2026-03-12T17:29:06.8210425Z #14 299.0 
+2026-03-12T17:29:06.8210698Z #14 299.0 6 high severity vulnerabilities
+2026-03-12T17:29:06.8211111Z #14 299.0 
+2026-03-12T17:29:06.8211393Z #14 299.0 To address all issues, run:
+2026-03-12T17:29:06.8211776Z #14 299.0   npm audit fix
+2026-03-12T17:29:06.8212116Z #14 299.0 
+2026-03-12T17:29:06.8212498Z #14 299.0 Run `npm audit` for details.
+2026-03-12T17:29:06.9961761Z #14 299.0 npm notice
+2026-03-12T17:29:06.9962279Z #14 299.0 npm notice New major version of npm available! 10.9.4 -> 11.11.1
+2026-03-12T17:29:06.9963050Z #14 299.0 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.1
+2026-03-12T17:29:06.9963648Z #14 299.0 npm notice To update run: npm install -g npm@11.11.1
+2026-03-12T17:29:06.9964050Z #14 299.0 npm notice
+2026-03-12T17:29:07.0910040Z #14 DONE 299.2s
+2026-03-12T17:29:07.2415743Z 
+2026-03-12T17:29:07.2417593Z #22 [linux/arm64 builder 5/6] COPY . .
+2026-03-12T17:29:07.3381328Z #22 DONE 0.2s
+2026-03-12T17:29:07.4897463Z 
+2026-03-12T17:29:07.4898291Z #23 [linux/arm64 builder 6/6] RUN npm run build
+2026-03-12T17:29:09.9856679Z #23 2.646 
+2026-03-12T17:29:09.9857510Z #23 2.646 > build
+2026-03-12T17:29:09.9859959Z #23 2.646 > nuxt build
+2026-03-12T17:29:09.9860242Z #23 2.646 
+2026-03-12T17:29:14.5851562Z #23 7.246 ┌  Building Nuxt for production...
+2026-03-12T17:29:17.2948300Z #23 9.955 │
+2026-03-12T17:29:17.2949108Z #23 9.955 ●  Nuxt 4.4.2 (with Nitro 2.13.1, Vite 7.3.1 and Vue 3.5.30)
+2026-03-12T17:29:22.8251696Z #23 15.49 [nuxt:tailwindcss] ℹ Using default Tailwind CSS file
+2026-03-12T17:29:23.3141655Z #23 15.97 [nuxt:google-fonts] ◐ Downloading fonts...
+2026-03-12T17:29:24.6377315Z #23 17.30 [nuxt:google-fonts] ✔ https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap
+2026-03-12T17:29:24.9945497Z #23 17.65 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-cyrillic
+2026-03-12T17:29:25.3582298Z #23 18.02 [nuxt:google-fonts] ℹ EB_Garamond-normal-400
+2026-03-12T17:29:25.5588873Z #23 18.07 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-greek
+2026-03-12T17:29:25.5875073Z #23 18.25 [nuxt:google-fonts] ℹ EB_Garamond-normal-400-latin
+2026-03-12T17:29:25.7140396Z #23 18.37 [nuxt:google-fonts] ℹ Montserrat-normal-100-cyrillic
+2026-03-12T17:29:25.8156037Z #23 18.48 [nuxt:google-fonts] ℹ Montserrat-normal-100
+2026-03-12T17:29:25.9265910Z #23 18.59 [nuxt:google-fonts] ℹ Montserrat-normal-100-latin
+2026-03-12T17:29:26.1590268Z #23 18.66 [nuxt:google-fonts] ✔ Download fonts completed.
+2026-03-12T17:29:26.1590805Z #23 18.67 [nuxt:google-fonts] 
+2026-03-12T17:29:26.3028648Z #23 18.96 [@nuxtjs/sitemap] ℹ No dynamic sources detected. Consider enabling zeroRuntime to reduce server bundle size. See https://nuxtseo.com/sitemap/guides/zero-runtime
+2026-03-12T17:29:35.2544017Z #23 27.92 │
+2026-03-12T17:29:35.2546599Z #23 27.92 ●  Nitro preset: node-server
+2026-03-12T17:29:44.8291982Z #23 37.49 ℹ Building client...
+2026-03-12T17:29:44.9966276Z #23 37.66 ℹ vite v7.3.1 building client environment for production...
+2026-03-12T17:29:45.4057471Z #23 38.07 
+2026-03-12T17:29:45.4062244Z #23 38.07  WARN  [plugin nuxt:module-preload-polyfill] Sourcemap is likely to be incorrect: a plugin (nuxt:module-preload-polyfill) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+2026-03-12T17:29:45.4064530Z #23 38.07 
+2026-03-12T17:29:45.9304243Z #23 38.59 ℹ transforming...
+2026-03-12T17:30:56.9859109Z #23 109.6 ℹ ✓ 255 modules transformed.
+2026-03-12T17:30:59.9011495Z #23 112.6 ℹ rendering chunks...
+2026-03-12T17:31:01.1910132Z #23 113.9 ℹ computing gzip size...
+2026-03-12T17:31:01.3298378Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-vietnamese.k7S-YeeD.woff2      12.93 kB
+2026-03-12T17:31:01.4406502Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-vietnamese.B-YjCn1Q.woff2     13.13 kB
+2026-03-12T17:31:01.4407981Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-greek-ext.jFu40_Kw.woff2      15.32 kB
+2026-03-12T17:31:01.4413915Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-greek.Dm53BPoz.woff2          19.97 kB
+2026-03-12T17:31:01.4415525Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-cyrillic.EAA9jha_.woff2        23.83 kB
+2026-03-12T17:31:01.4417082Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/manifest.json                                              24.92 kB │ gzip:  1.40 kB
+2026-03-12T17:31:01.4418589Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-cyrillic.DZVSGMRt.woff2       26.26 kB
+2026-03-12T17:31:01.4420298Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-cyrillic-ext.CO5hGrJv.woff2    26.37 kB
+2026-03-12T17:31:01.4421997Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-cyrillic-ext.ByugaZpy.woff2   33.88 kB
+2026-03-12T17:31:01.4434252Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-latin.l_AIctKy.woff2           37.96 kB
+2026-03-12T17:31:01.4435964Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-latin.BUNBP5ar.woff2          41.32 kB
+2026-03-12T17:31:01.4437659Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Montserrat-normal-100-latin-ext.BsZE-iaG.woff2       70.69 kB
+2026-03-12T17:31:01.4439360Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/EB_Garamond-normal-400-latin-ext.Bgo24x86.woff2     116.32 kB
+2026-03-12T17:31:01.4441102Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/fotogaleria.BU-iMAp_.css                              0.53 kB │ gzip:  0.24 kB
+2026-03-12T17:31:01.4443047Z #23 114.0 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/kontakt.gkJFy2J3.css                                  0.53 kB │ gzip:  0.24 kB
+2026-03-12T17:31:01.4444769Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/index.BCsnRuHd.css                                    1.19 kB │ gzip:  0.46 kB
+2026-03-12T17:31:01.4446916Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-500.BENb_mjk.css                                1.91 kB │ gzip:  0.73 kB
+2026-03-12T17:31:01.4448654Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-404._yXoGkXB.css                                2.43 kB │ gzip:  0.86 kB
+2026-03-12T17:31:01.5736217Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sluzby.CQiZbPYe.css                                   4.71 kB │ gzip:  1.22 kB
+2026-03-12T17:31:01.5738912Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/entry.DU1AfspL.css                                   67.31 kB │ gzip:  9.16 kB
+2026-03-12T17:31:01.5740483Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DlAUqK2U.js                                           0.09 kB │ gzip:  0.10 kB
+2026-03-12T17:31:01.5742040Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DdTmQg3G.js                                           3.32 kB │ gzip:  1.10 kB
+2026-03-12T17:31:01.5743744Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/8ZSG5TDJ.js                                           3.48 kB │ gzip:  1.56 kB
+2026-03-12T17:31:01.5745265Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/uD5P5_XK.js                                           3.79 kB │ gzip:  1.71 kB
+2026-03-12T17:31:01.5747101Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DHmWjBaf.js                                           3.89 kB │ gzip:  1.92 kB
+2026-03-12T17:31:01.5748578Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DphqQICj.js                                           5.35 kB │ gzip:  2.11 kB
+2026-03-12T17:31:01.5750087Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/qtTl0eMF.js                                          10.06 kB │ gzip:  3.39 kB
+2026-03-12T17:31:01.5751665Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BoiXLBdZ.js                                          10.85 kB │ gzip:  3.72 kB
+2026-03-12T17:31:01.5753269Z #23 114.1 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BZpTQGcU.js                                          16.27 kB │ gzip:  4.91 kB
+2026-03-12T17:31:01.5754738Z #23 114.2 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/D3wAYpS0.js                                          17.16 kB │ gzip:  5.27 kB
+2026-03-12T17:31:01.5756037Z #23 114.2 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/C8nBGPD0.js                                          26.68 kB │ gzip:  8.42 kB
+2026-03-12T17:31:01.5757115Z #23 114.2 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Bm8efQhm.js                                          32.40 kB │ gzip:  4.20 kB
+2026-03-12T17:31:01.5758241Z #23 114.2 ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/B2ZS1KJT.js                                         230.27 kB │ gzip: 86.77 kB
+2026-03-12T17:31:01.5758959Z #23 114.2 ℹ ✓ built in 1m 16s
+2026-03-12T17:31:01.5759311Z #23 114.2 ✔ Client built in 76683ms
+2026-03-12T17:31:01.5759671Z #23 114.2 ℹ Building server...
+2026-03-12T17:31:01.8215775Z #23 114.3 ℹ vite v7.3.1 building ssr environment for production...
+2026-03-12T17:31:01.8769560Z #23 114.5 ℹ transforming...
+2026-03-12T17:31:36.9059678Z #23 149.6 ℹ ✓ 131 modules transformed.
+2026-03-12T17:31:37.9841308Z #23 150.6 ℹ rendering chunks...
+2026-03-12T17:31:39.8720393Z #23 152.5 ℹ ✓ built in 38.20s
+2026-03-12T17:31:40.0835508Z #23 152.7 ✔ Server built in 38510ms
+2026-03-12T17:31:41.5479333Z #23 154.2 [nitro] ✔ Generated public .output/public
+2026-03-12T17:31:43.9945992Z #23 156.7 [nitro] ℹ Building Nuxt Nitro server (preset: node-server, compatibility date: 2025-07-15)
+2026-03-12T17:32:46.9979931Z #23 219.7 [nitro] ✔ Nuxt Nitro server built
+2026-03-12T17:32:48.1473302Z #23 220.8   ├─ .output/server/chunks/_/error-500.mjs (5.09 kB) (2.07 kB gzip)
+2026-03-12T17:32:48.1475477Z #23 220.8   ├─ .output/server/chunks/_/error-500.mjs.map (182 B) (154 B gzip)
+2026-03-12T17:32:48.1476599Z #23 220.8   ├─ .output/server/chunks/build/_plugin-vue_export-helper-1tPrXgE0.mjs (254 B) (201 B gzip)
+2026-03-12T17:32:48.1478754Z #23 220.8   ├─ .output/server/chunks/build/_plugin-vue_export-helper-1tPrXgE0.mjs.map (225 B) (169 B gzip)
+2026-03-12T17:32:48.1480118Z #23 220.8   ├─ .output/server/chunks/build/client.precomputed.mjs (46.6 kB) (2.54 kB gzip)
+2026-03-12T17:32:48.1481326Z #23 220.8   ├─ .output/server/chunks/build/client.precomputed.mjs.map (188 B) (150 B gzip)
+2026-03-12T17:32:48.1482437Z #23 220.8   ├─ .output/server/chunks/build/default-BJbRcysM.mjs (16.3 kB) (3.87 kB gzip)
+2026-03-12T17:32:48.1483565Z #23 220.8   ├─ .output/server/chunks/build/default-BJbRcysM.mjs.map (189 B) (159 B gzip)
+2026-03-12T17:32:48.1484819Z #23 220.8   ├─ .output/server/chunks/build/error-404-BygqSqaH.mjs (5.81 kB) (2.33 kB gzip)
+2026-03-12T17:32:48.1486007Z #23 220.8   ├─ .output/server/chunks/build/error-404-BygqSqaH.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:32:48.1487102Z #23 220.8   ├─ .output/server/chunks/build/error-404-styles.DtuF77Et.mjs (2.72 kB) (985 B gzip)
+2026-03-12T17:32:48.1488361Z #23 220.8   ├─ .output/server/chunks/build/error-404-styles.DtuF77Et.mjs.map (317 B) (190 B gzip)
+2026-03-12T17:32:48.1489771Z #23 220.8   ├─ .output/server/chunks/build/error-500-C0zRFqdz.mjs (5 kB) (2.05 kB gzip)
+2026-03-12T17:32:48.1491277Z #23 220.8   ├─ .output/server/chunks/build/error-500-C0zRFqdz.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:32:48.1492270Z #23 220.8   ├─ .output/server/chunks/build/error-500-styles.3g_bWYX3.mjs (2.19 kB) (861 B gzip)
+2026-03-12T17:32:48.1493636Z #23 220.8   ├─ .output/server/chunks/build/error-500-styles.3g_bWYX3.mjs.map (317 B) (191 B gzip)
+2026-03-12T17:32:48.1494598Z #23 220.8   ├─ .output/server/chunks/build/fotogaleria-CIVZfpBZ.mjs (14.8 kB) (4.24 kB gzip)
+2026-03-12T17:32:48.1495689Z #23 220.8   ├─ .output/server/chunks/build/fotogaleria-CIVZfpBZ.mjs.map (197 B) (161 B gzip)
+2026-03-12T17:32:48.1496671Z #23 220.8   ├─ .output/server/chunks/build/fotogaleria-styles.Bpnf8Cw6.mjs (811 B) (366 B gzip)
+2026-03-12T17:32:48.1497703Z #23 220.8   ├─ .output/server/chunks/build/fotogaleria-styles.Bpnf8Cw6.mjs.map (323 B) (191 B gzip)
+2026-03-12T17:32:48.1498820Z #23 220.8   ├─ .output/server/chunks/build/index-BgDNc12G.mjs (34.2 kB) (6.69 kB gzip)
+2026-03-12T17:32:48.1499808Z #23 220.8   ├─ .output/server/chunks/build/index-BgDNc12G.mjs.map (185 B) (158 B gzip)
+2026-03-12T17:32:48.1501143Z #23 220.8   ├─ .output/server/chunks/build/index-styles.gMN43g9P.mjs (781 B) (361 B gzip)
+2026-03-12T17:32:48.1502227Z #23 220.8   ├─ .output/server/chunks/build/index-styles.gMN43g9P.mjs.map (305 B) (187 B gzip)
+2026-03-12T17:32:48.1503246Z #23 220.8   ├─ .output/server/chunks/build/kontakt-DvR64yf2.mjs (17.5 kB) (4.25 kB gzip)
+2026-03-12T17:32:48.1504415Z #23 220.8   ├─ .output/server/chunks/build/kontakt-DvR64yf2.mjs.map (209 B) (171 B gzip)
+2026-03-12T17:32:48.1505666Z #23 220.8   ├─ .output/server/chunks/build/kontakt-styles.DTrMtlNs.mjs (791 B) (365 B gzip)
+2026-03-12T17:32:48.1506858Z #23 220.8   ├─ .output/server/chunks/build/kontakt-styles.DTrMtlNs.mjs.map (311 B) (189 B gzip)
+2026-03-12T17:32:48.1508093Z #23 220.8   ├─ .output/server/chunks/build/Marquee-styles.BkokWqNg.mjs (477 B) (282 B gzip)
+2026-03-12T17:32:48.1509113Z #23 220.8   ├─ .output/server/chunks/build/Marquee-styles.BkokWqNg.mjs.map (311 B) (187 B gzip)
+2026-03-12T17:32:48.1510022Z #23 220.8   ├─ .output/server/chunks/build/nuxt-link-CFcOSPqC.mjs (9.7 kB) (2.53 kB gzip)
+2026-03-12T17:32:48.1511199Z #23 220.8   ├─ .output/server/chunks/build/nuxt-link-CFcOSPqC.mjs.map (193 B) (162 B gzip)
+2026-03-12T17:32:48.1512609Z #23 220.8   ├─ .output/server/chunks/build/SectionBackground-D0XNfP4O.mjs (5.84 kB) (1.53 kB gzip)
+2026-03-12T17:32:48.1513944Z #23 220.8   ├─ .output/server/chunks/build/SectionBackground-D0XNfP4O.mjs.map (209 B) (168 B gzip)
+2026-03-12T17:32:48.1515101Z #23 220.8   ├─ .output/server/chunks/build/server.mjs (111 kB) (27.5 kB gzip)
+2026-03-12T17:32:48.1516038Z #23 220.8   ├─ .output/server/chunks/build/server.mjs.map (243 B) (169 B gzip)
+2026-03-12T17:32:48.1517081Z #23 220.8   ├─ .output/server/chunks/build/sluzby-n0SXDGut.mjs (42.3 kB) (5.1 kB gzip)
+2026-03-12T17:32:48.1518576Z #23 220.8   ├─ .output/server/chunks/build/sluzby-n0SXDGut.mjs.map (187 B) (159 B gzip)
+2026-03-12T17:32:48.1519493Z #23 220.8   ├─ .output/server/chunks/build/sluzby-styles.Cphq8NAB.mjs (4.97 kB) (1.35 kB gzip)
+2026-03-12T17:32:48.1520619Z #23 220.8   ├─ .output/server/chunks/build/sluzby-styles.Cphq8NAB.mjs.map (308 B) (190 B gzip)
+2026-03-12T17:32:48.1521400Z #23 220.8   ├─ .output/server/chunks/build/styles.mjs (2.18 kB) (520 B gzip)
+2026-03-12T17:32:48.1522093Z #23 220.8   ├─ .output/server/chunks/build/styles.mjs.map (164 B) (142 B gzip)
+2026-03-12T17:32:48.1525337Z #23 220.8   ├─ .output/server/chunks/build/TextHighlight-styles.bTr8cotg.mjs (738 B) (353 B gzip)
+2026-03-12T17:32:48.1526604Z #23 220.8   ├─ .output/server/chunks/build/TextHighlight-styles.bTr8cotg.mjs.map (329 B) (194 B gzip)
+2026-03-12T17:32:48.1527682Z #23 220.8   ├─ .output/server/chunks/build/utils-H80jjgLf.mjs (196 B) (166 B gzip)
+2026-03-12T17:32:48.1528669Z #23 220.8   ├─ .output/server/chunks/build/utils-H80jjgLf.mjs.map (185 B) (156 B gzip)
+2026-03-12T17:32:48.1529800Z #23 220.8   ├─ .output/server/chunks/build/virtual_public-BjYmNEyp.mjs (4.4 kB) (1.54 kB gzip)
+2026-03-12T17:32:48.1530833Z #23 220.8   ├─ .output/server/chunks/build/virtual_public-BjYmNEyp.mjs.map (203 B) (163 B gzip)
+2026-03-12T17:32:48.1538745Z #23 220.8   ├─ .output/server/chunks/nitro/nitro.mjs (293 kB) (69.8 kB gzip)
+2026-03-12T17:32:48.1539775Z #23 220.8   ├─ .output/server/chunks/nitro/nitro.mjs.map (5.36 kB) (1.14 kB gzip)
+2026-03-12T17:32:48.1540745Z #23 220.8   ├─ .output/server/chunks/routes/api/contact.post.mjs (2.52 kB) (1.06 kB gzip)
+2026-03-12T17:32:48.1541823Z #23 220.8   ├─ .output/server/chunks/routes/api/contact.post.mjs.map (1.54 kB) (419 B gzip)
+2026-03-12T17:32:48.1542745Z #23 220.8   ├─ .output/server/chunks/routes/renderer.mjs (18.4 kB) (6.19 kB gzip)
+2026-03-12T17:32:48.1543457Z #23 220.8   ├─ .output/server/chunks/routes/renderer.mjs.map (845 B) (273 B gzip)
+2026-03-12T17:32:48.1544224Z #23 220.8   ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs (94 B) (100 B gzip)
+2026-03-12T17:32:48.1545130Z #23 220.8   ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs.map (90 B) (98 B gzip)
+2026-03-12T17:32:48.1546092Z #23 220.8   ├─ .output/server/chunks/virtual/child-sources.mjs (84 B) (86 B gzip)
+2026-03-12T17:32:48.1546927Z #23 220.8   ├─ .output/server/chunks/virtual/child-sources.mjs.map (82 B) (90 B gzip)
+2026-03-12T17:32:48.1547734Z #23 220.8   ├─ .output/server/chunks/virtual/global-sources.mjs (653 B) (292 B gzip)
+2026-03-12T17:32:48.1548492Z #23 220.8   ├─ .output/server/chunks/virtual/global-sources.mjs.map (108 B) (90 B gzip)
+2026-03-12T17:32:48.1549138Z #23 220.8   ├─ .output/server/index.mjs (411 B) (227 B gzip)
+2026-03-12T17:32:48.1549689Z #23 220.8   └─ .output/server/package.json (1.14 kB) (474 B gzip)
+2026-03-12T17:32:48.1550207Z #23 220.8 Σ Total size: 3.2 MB (782 kB gzip)
+2026-03-12T17:32:48.3225843Z #23 220.8 [nitro] ✔ You can preview this build using node .output/server/index.mjs
+2026-03-12T17:32:48.3227015Z #23 220.8 │
+2026-03-12T17:32:48.3227883Z #23 220.8 └  ✨ Build complete!
+2026-03-12T17:32:48.6790832Z #23 DONE 221.3s
+2026-03-12T17:32:49.0988477Z 
+2026-03-12T17:32:49.0991945Z #24 [linux/arm64 runner 3/6] COPY --from=builder /app/.output ./
+2026-03-12T17:32:49.3044937Z #24 DONE 0.1s
+2026-03-12T17:32:49.3045207Z 
+2026-03-12T17:32:49.3045523Z #25 [linux/arm64 runner 4/6] RUN addgroup --system --gid 1001 nodejs
+2026-03-12T17:32:49.6003418Z #25 0.446 Adding group `nodejs' (GID 1001) ...
+2026-03-12T17:32:49.8474463Z #25 0.527 Done.
+2026-03-12T17:32:49.8474887Z #25 DONE 0.5s
+2026-03-12T17:32:49.8475077Z 
+2026-03-12T17:32:49.8475377Z #26 [linux/arm64 runner 5/6] RUN adduser --system --uid 1001 nuxtjs
+2026-03-12T17:32:50.1457886Z #26 0.449 Adding system user `nuxtjs' (UID 1001) ...
+2026-03-12T17:32:50.1466118Z #26 0.449 Adding new user `nuxtjs' (UID 1001) with group `nogroup' ...
+2026-03-12T17:32:50.3901717Z #26 0.693 Creating home directory `/home/nuxtjs' ...
+2026-03-12T17:32:50.5567118Z #26 DONE 0.7s
+2026-03-12T17:32:50.5567532Z 
+2026-03-12T17:32:50.5567698Z #27 [linux/arm64 runner 6/6] RUN chown -R nuxtjs:nodejs /app
+2026-03-12T17:32:50.8586770Z #27 DONE 0.5s
+2026-03-12T17:32:51.0109174Z 
+2026-03-12T17:32:51.0109865Z #28 exporting to image
+2026-03-12T17:32:51.0110496Z #28 exporting layers
+2026-03-12T17:32:51.7936866Z #28 exporting layers 0.9s done
+2026-03-12T17:32:51.9861371Z #28 exporting manifest sha256:5c0198b4bd5718b8d188fe6f8a3855c1f04b2539f3cd878291878825aeb30d29 done
+2026-03-12T17:32:51.9862776Z #28 exporting config sha256:e61c2acf3ea4781ae5c4373b78edccb7330b903034148deadededfc1bba735aa done
+2026-03-12T17:32:51.9863574Z #28 exporting attestation manifest sha256:9bc1ce88d85be7f50a540b245cbb99ea4b336ed7b02a2df2e04c67c5cb44c87b done
+2026-03-12T17:32:51.9864350Z #28 exporting manifest sha256:9c32189eba1f5c68c20dbf57f78dc24324cbeca9a228de09ea581c4bab95253a done
+2026-03-12T17:32:51.9865063Z #28 exporting config sha256:05dfe42f9900b348bc262022ca1e16e3ef79a2c70848d3b97f5184c95958b75e done
+2026-03-12T17:32:51.9865841Z #28 exporting attestation manifest sha256:a0a9ecd599f4d34a5604c91f307d961b961d2faa5b1a2460162f34b52c5d1957 done
+2026-03-12T17:32:51.9866611Z #28 exporting manifest list sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec done
+2026-03-12T17:32:51.9867484Z #28 pushing layers
+2026-03-12T17:32:52.1483630Z #28 ...
+2026-03-12T17:32:52.1484052Z 
+2026-03-12T17:32:52.1484444Z #29 [auth] dem0n1337/kvp-servis-modern:pull,push token for ghcr.io
+2026-03-12T17:32:52.1485111Z #29 DONE 0.0s
+2026-03-12T17:32:52.2983734Z 
+2026-03-12T17:32:52.2984528Z #28 exporting to image
+2026-03-12T17:33:02.0893475Z #28 pushing layers 10.3s done
+2026-03-12T17:33:02.0894436Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:master@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec
+2026-03-12T17:33:06.7346827Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:master@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec 4.6s done
+2026-03-12T17:33:08.0875487Z #28 pushing layers 1.4s done
+2026-03-12T17:33:08.0876603Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:latest@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec
+2026-03-12T17:33:09.5762015Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:latest@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec 1.5s done
+2026-03-12T17:33:10.9675250Z #28 pushing layers 1.4s done
+2026-03-12T17:33:10.9676561Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec
+2026-03-12T17:33:12.3078785Z #28 pushing manifest for ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1@sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec 1.3s done
+2026-03-12T17:33:12.3080095Z #28 DONE 21.4s
+2026-03-12T17:33:12.3080286Z 
+2026-03-12T17:33:12.3080453Z #30 exporting to GitHub Actions Cache
+2026-03-12T17:33:12.3081045Z #30 preparing build cache for export
+2026-03-12T17:33:52.2629742Z #30 writing layer sha256:008c6355f95b1f8041f0f570487536750e269327d65a0320c3d85bffbfe32806
+2026-03-12T17:34:15.0400273Z #30 writing layer sha256:008c6355f95b1f8041f0f570487536750e269327d65a0320c3d85bffbfe32806 22.8s done
+2026-03-12T17:34:15.2491124Z #30 writing layer sha256:018c0693c4a2532e5636d6115333db6d882da8f33f1f40cb3e88dbe62da21aac
+2026-03-12T17:34:19.1952798Z #30 writing layer sha256:018c0693c4a2532e5636d6115333db6d882da8f33f1f40cb3e88dbe62da21aac 4.1s done
+2026-03-12T17:34:19.4129274Z #30 writing layer sha256:2014abc10cd28003d066ee8be6a41c0f7be88c6b73fb40564346bd15425f67c5
+2026-03-12T17:34:19.7256845Z #30 writing layer sha256:2014abc10cd28003d066ee8be6a41c0f7be88c6b73fb40564346bd15425f67c5 0.5s done
+2026-03-12T17:34:19.9502511Z #30 writing layer sha256:2de1c8edd1b51fa488358d530cc9d90d795971d1d9c35f05cc616cdfa1e88251
+2026-03-12T17:34:24.7649473Z #30 writing layer sha256:2de1c8edd1b51fa488358d530cc9d90d795971d1d9c35f05cc616cdfa1e88251 5.0s done
+2026-03-12T17:34:24.9829064Z #30 writing layer sha256:30370f70f272f142dd990edd8f6bfa1237d874a4ea452c32d2755f3830fcdab1
+2026-03-12T17:34:25.2706474Z #30 writing layer sha256:30370f70f272f142dd990edd8f6bfa1237d874a4ea452c32d2755f3830fcdab1 0.4s done
+2026-03-12T17:34:25.4805288Z #30 writing layer sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7
+2026-03-12T17:34:28.8523680Z #30 writing layer sha256:34f0642d22440b5813561cd4375937013bfb556bec8ff3b0e208699b786282a7 3.5s done
+2026-03-12T17:34:29.0615366Z #30 writing layer sha256:3e6ab484174b80b99924ff7d72e8029f128aac7d5a67ca7efc293c222614f31d
+2026-03-12T17:34:30.2882506Z #30 writing layer sha256:3e6ab484174b80b99924ff7d72e8029f128aac7d5a67ca7efc293c222614f31d 1.4s done
+2026-03-12T17:34:30.5024175Z #30 writing layer sha256:3f06bbb37c5cf5dd504a03309ccae1745352dc4a6d992bdde5ef4e113c3e5245
+2026-03-12T17:34:30.8873357Z #30 writing layer sha256:3f06bbb37c5cf5dd504a03309ccae1745352dc4a6d992bdde5ef4e113c3e5245 0.5s done
+2026-03-12T17:34:31.1066920Z #30 writing layer sha256:3fa0ba21f48093992968632ce1c2f465db6989de387b4d0481e6836d40f52f9f
+2026-03-12T17:34:31.3985604Z #30 writing layer sha256:3fa0ba21f48093992968632ce1c2f465db6989de387b4d0481e6836d40f52f9f 0.4s done
+2026-03-12T17:34:31.6120375Z #30 writing layer sha256:4168cd70a8f26fbfa1ca5882b858f7342b1b3b1e6cdffd51ed12cb3148bcc2ec
+2026-03-12T17:34:31.8543197Z #30 writing layer sha256:4168cd70a8f26fbfa1ca5882b858f7342b1b3b1e6cdffd51ed12cb3148bcc2ec 0.4s done
+2026-03-12T17:34:32.0776251Z #30 writing layer sha256:544a591d4d6b976f8d4b7e89e9550f2036a03c29bb78fa9a155e02db45625a97
+2026-03-12T17:34:32.2366290Z #30 writing layer sha256:544a591d4d6b976f8d4b7e89e9550f2036a03c29bb78fa9a155e02db45625a97 0.3s done
+2026-03-12T17:34:32.4483947Z #30 writing layer sha256:5fd35fd384700a429fd464751346a9b869dec94f75d44ec6b8bfcc62a47721c7
+2026-03-12T17:34:33.6041626Z #30 writing layer sha256:5fd35fd384700a429fd464751346a9b869dec94f75d44ec6b8bfcc62a47721c7 1.3s done
+2026-03-12T17:34:33.8461918Z #30 writing layer sha256:647fd4078baa02a5614250b2b45b3addc796ced0e5887a4554998cbfae308682
+2026-03-12T17:34:34.1553785Z #30 writing layer sha256:647fd4078baa02a5614250b2b45b3addc796ced0e5887a4554998cbfae308682 0.5s done
+2026-03-12T17:34:34.3648095Z #30 writing layer sha256:8b6983b8602652f2b932a325dba1501462747cb477d925c37fae810ead0161a3
+2026-03-12T17:34:35.5438051Z #30 writing layer sha256:8b6983b8602652f2b932a325dba1501462747cb477d925c37fae810ead0161a3 1.3s done
+2026-03-12T17:34:35.7549023Z #30 writing layer sha256:9caefba19bf44b9bf5eeff31f17595cdcacf49d4f466dd3c70ff892b7d714ca9
+2026-03-12T17:34:36.5631915Z #30 writing layer sha256:9caefba19bf44b9bf5eeff31f17595cdcacf49d4f466dd3c70ff892b7d714ca9 1.0s done
+2026-03-12T17:34:36.7153934Z #30 writing layer sha256:9d8797bed962da973b9faa24093b7730bab200a670c1c708226b094a09489f1b
+2026-03-12T17:34:36.9743221Z #30 writing layer sha256:9d8797bed962da973b9faa24093b7730bab200a670c1c708226b094a09489f1b 0.3s done
+2026-03-12T17:34:37.2037513Z #30 writing layer sha256:a5069f56a514a35b0b6363a24e1a6d652326709668d915081982cb289ee363fc
+2026-03-12T17:34:37.6908219Z #30 writing layer sha256:a5069f56a514a35b0b6363a24e1a6d652326709668d915081982cb289ee363fc 0.6s done
+2026-03-12T17:34:37.8155453Z #30 writing layer sha256:a8fb350ce69a14ead68c5f50b371e3bb15679616d99a592734ffcb8f4f80d4c8
+2026-03-12T17:34:38.0681485Z #30 writing layer sha256:a8fb350ce69a14ead68c5f50b371e3bb15679616d99a592734ffcb8f4f80d4c8 0.3s done
+2026-03-12T17:34:38.2957425Z #30 writing layer sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78
+2026-03-12T17:34:43.6266332Z #30 writing layer sha256:b24b3ffd022bee8ad259b84f989557a031ea63b42bea6186123abefd0315dd78 5.5s done
+2026-03-12T17:34:43.8355688Z #30 writing layer sha256:b48eedc9d6276cd02d999561d9d06f17e5cf300bffd61321b7af6c40f461930d
+2026-03-12T17:35:28.1723727Z #30 writing layer sha256:b48eedc9d6276cd02d999561d9d06f17e5cf300bffd61321b7af6c40f461930d 44.5s done
+2026-03-12T17:35:28.3888255Z #30 writing layer sha256:ceb6ebaa83cb6d816b1f56f1345e3f35731ed8b17251e82f16859b5636758ccf
+2026-03-12T17:35:30.0773963Z #30 writing layer sha256:ceb6ebaa83cb6d816b1f56f1345e3f35731ed8b17251e82f16859b5636758ccf 1.8s done
+2026-03-12T17:35:30.2888750Z #30 writing layer sha256:d067da9485cde28907cad7dbe31cd26c16d51df897b63e196db6d190d9226628
+2026-03-12T17:35:30.8893553Z #30 writing layer sha256:d067da9485cde28907cad7dbe31cd26c16d51df897b63e196db6d190d9226628 0.8s done
+2026-03-12T17:35:31.0990733Z #30 writing layer sha256:d64dcd596a3e2298eb68c49b2d37b3985b32154e171638e27451069257600606
+2026-03-12T17:35:31.3999700Z #30 writing layer sha256:d64dcd596a3e2298eb68c49b2d37b3985b32154e171638e27451069257600606 0.5s done
+2026-03-12T17:35:31.6304756Z #30 writing layer sha256:d966fcdb509d068dc2129be01fd22a78dff714db366b1b9ec6bde6882a5060eb
+2026-03-12T17:35:31.7522151Z #30 writing layer sha256:d966fcdb509d068dc2129be01fd22a78dff714db366b1b9ec6bde6882a5060eb 0.3s done
+2026-03-12T17:35:31.9660005Z #30 writing layer sha256:ec9a49d40563ed910c49b45aadc3060a98a1ba3682d42739af2107841a804022
+2026-03-12T17:35:32.9519183Z #30 writing layer sha256:ec9a49d40563ed910c49b45aadc3060a98a1ba3682d42739af2107841a804022 1.1s done
+2026-03-12T17:35:33.1769183Z #30 writing layer sha256:f4076c0627808381e73fd02bbe2036c16bc3f1c2fb8e929eafe18378174ee7bf
+2026-03-12T17:35:35.5984367Z #30 writing layer sha256:f4076c0627808381e73fd02bbe2036c16bc3f1c2fb8e929eafe18378174ee7bf 2.6s done
+2026-03-12T17:35:35.9836881Z #30 preparing build cache for export 143.7s done
+2026-03-12T17:35:35.9838201Z #30 DONE 143.7s
+2026-03-12T17:35:36.0570815Z 
+2026-03-12T17:35:36.0571582Z #31 resolving provenance for metadata file
+2026-03-12T17:35:36.0572086Z #31 DONE 0.0s
+2026-03-12T17:35:36.0670040Z ##[group]ImageID
+2026-03-12T17:35:36.0674619Z sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec
+2026-03-12T17:35:36.0677808Z ##[endgroup]
+2026-03-12T17:35:36.0679998Z ##[group]Digest
+2026-03-12T17:35:36.0681716Z sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec
+2026-03-12T17:35:36.0684620Z ##[endgroup]
+2026-03-12T17:35:36.0691873Z ##[group]Metadata
+2026-03-12T17:35:36.0692231Z {
+2026-03-12T17:35:36.0692629Z   "buildx.build.provenance/linux/amd64": {
+2026-03-12T17:35:36.0693115Z     "builder": {
+2026-03-12T17:35:36.0693703Z       "id": "https://github.com/dem0n1337/kvp-servis-modern/actions/runs/23014924519"
+2026-03-12T17:35:36.0695229Z     },
+2026-03-12T17:35:36.0696771Z     "buildType": "https://mobyproject.org/buildkit@v1",
+2026-03-12T17:35:36.0698517Z     "materials": [
+2026-03-12T17:35:36.0699743Z       {
+2026-03-12T17:35:36.0700894Z         "uri": "pkg:docker/node@22-bullseye-slim?platform=linux%2Famd64",
+2026-03-12T17:35:36.0704330Z         "digest": {
+2026-03-12T17:35:36.0704887Z           "sha256": "52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92"
+2026-03-12T17:35:36.0705545Z         }
+2026-03-12T17:35:36.0705801Z       }
+2026-03-12T17:35:36.0706066Z     ],
+2026-03-12T17:35:36.0706337Z     "invocation": {
+2026-03-12T17:35:36.0706670Z       "configSource": {
+2026-03-12T17:35:36.0707026Z         "entryPoint": "Dockerfile"
+2026-03-12T17:35:36.0707413Z       },
+2026-03-12T17:35:36.0707660Z       "parameters": {
+2026-03-12T17:35:36.0707945Z         "frontend": "dockerfile.v0",
+2026-03-12T17:35:36.0708264Z         "args": {
+2026-03-12T17:35:36.0708692Z           "label:org.opencontainers.image.created": "2026-03-12T17:23:59.881Z",
+2026-03-12T17:35:36.0709379Z           "label:org.opencontainers.image.description": "",
+2026-03-12T17:35:36.0709949Z           "label:org.opencontainers.image.licenses": "",
+2026-03-12T17:35:36.0710656Z           "label:org.opencontainers.image.revision": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0711615Z           "label:org.opencontainers.image.source": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0713786Z           "label:org.opencontainers.image.title": "kvp-servis-modern",
+2026-03-12T17:35:36.0714714Z           "label:org.opencontainers.image.url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0715423Z           "label:org.opencontainers.image.version": "master"
+2026-03-12T17:35:36.0716078Z         },
+2026-03-12T17:35:36.0716318Z         "locals": [
+2026-03-12T17:35:36.0716610Z           {
+2026-03-12T17:35:36.0716855Z             "name": "context"
+2026-03-12T17:35:36.0717188Z           },
+2026-03-12T17:35:36.0717436Z           {
+2026-03-12T17:35:36.0717729Z             "name": "dockerfile"
+2026-03-12T17:35:36.0718075Z           }
+2026-03-12T17:35:36.0718291Z         ]
+2026-03-12T17:35:36.0718538Z       },
+2026-03-12T17:35:36.0718773Z       "environment": {
+2026-03-12T17:35:36.0719071Z         "github_actor": "dem0n1337",
+2026-03-12T17:35:36.0719413Z         "github_actor_id": "152562201",
+2026-03-12T17:35:36.0719766Z         "github_event_name": "push",
+2026-03-12T17:35:36.0720110Z         "github_event_payload": {
+2026-03-12T17:35:36.0720509Z           "after": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0720917Z           "base_ref": null,
+2026-03-12T17:35:36.0721300Z           "before": "1d6f41b7d57ac50252f7e1cc61a87ab2565a1bbd",
+2026-03-12T17:35:36.0721721Z           "commits": [
+2026-03-12T17:35:36.0721996Z             {
+2026-03-12T17:35:36.0722272Z               "author": {
+2026-03-12T17:35:36.0723026Z                 "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0723662Z                 "name": "Jakub Demovic"
+2026-03-12T17:35:36.0724042Z               },
+2026-03-12T17:35:36.0724337Z               "committer": {
+2026-03-12T17:35:36.0724739Z                 "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0725216Z                 "name": "Jakub Demovic"
+2026-03-12T17:35:36.0725596Z               },
+2026-03-12T17:35:36.0725898Z               "distinct": true,
+2026-03-12T17:35:36.0726326Z               "id": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0732216Z               "message": "fix(seo): comprehensive SEO overhaul to restore search engine indexing\n\n- Add @nuxtjs/sitemap module for automatic sitemap.xml generation\n- Add lang=\"sk\" HTML attribute for proper language detection\n- Add canonical URLs on all pages to prevent duplicate content\n- Add JSON-LD LocalBusiness structured data (schema.org)\n- Add Open Graph and Twitter Card meta tags on all pages\n- Add geo meta tags (SK-BL, Slovensky Grob) for local SEO\n- Fix heading hierarchy: layout h1 changed to span, pages keep their h1\n- Fix meta descriptions to stay within 120-160 char limit\n- Add descriptive alt texts to all gallery images\n- Wrap BusinessMap in ClientOnly for proper SSR\n- Update robots.txt with sitemap reference\n- Add llms.txt for LLM crawlers\n- Set ssr: true explicitly in nuxt.config\n- Disable devtools in production\n- Dynamic copyright year in footer\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+2026-03-12T17:35:36.0737874Z               "timestamp": "2026-03-12T18:22:36+01:00",
+2026-03-12T17:35:36.0738352Z               "tree_id": "ec8cd643f63be308cf7ad5b2d0277c8dcc53c954",
+2026-03-12T17:35:36.0739279Z               "url": "https://github.com/dem0n1337/kvp-servis-modern/commit/6e23cc112660d7cb9d0593e791287c8c6ab1f792"
+2026-03-12T17:35:36.0740060Z             }
+2026-03-12T17:35:36.0740306Z           ],
+2026-03-12T17:35:36.0742206Z           "compare": "https://github.com/dem0n1337/kvp-servis-modern/compare/1d6f41b7d57a...6e23cc112660",
+2026-03-12T17:35:36.0743052Z           "created": false,
+2026-03-12T17:35:36.0743415Z           "deleted": false,
+2026-03-12T17:35:36.0743709Z           "forced": false,
+2026-03-12T17:35:36.0744009Z           "head_commit": {
+2026-03-12T17:35:36.0744321Z             "author": {
+2026-03-12T17:35:36.0744666Z               "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0745055Z               "name": "Jakub Demovic"
+2026-03-12T17:35:36.0745388Z             },
+2026-03-12T17:35:36.0745627Z             "committer": {
+2026-03-12T17:35:36.0746041Z               "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0746497Z               "name": "Jakub Demovic"
+2026-03-12T17:35:36.0746817Z             },
+2026-03-12T17:35:36.0747042Z             "distinct": true,
+2026-03-12T17:35:36.0747571Z             "id": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0752159Z             "message": "fix(seo): comprehensive SEO overhaul to restore search engine indexing\n\n- Add @nuxtjs/sitemap module for automatic sitemap.xml generation\n- Add lang=\"sk\" HTML attribute for proper language detection\n- Add canonical URLs on all pages to prevent duplicate content\n- Add JSON-LD LocalBusiness structured data (schema.org)\n- Add Open Graph and Twitter Card meta tags on all pages\n- Add geo meta tags (SK-BL, Slovensky Grob) for local SEO\n- Fix heading hierarchy: layout h1 changed to span, pages keep their h1\n- Fix meta descriptions to stay within 120-160 char limit\n- Add descriptive alt texts to all gallery images\n- Wrap BusinessMap in ClientOnly for proper SSR\n- Update robots.txt with sitemap reference\n- Add llms.txt for LLM crawlers\n- Set ssr: true explicitly in nuxt.config\n- Disable devtools in production\n- Dynamic copyright year in footer\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+2026-03-12T17:35:36.0760026Z             "timestamp": "2026-03-12T18:22:36+01:00",
+2026-03-12T17:35:36.0760540Z             "tree_id": "ec8cd643f63be308cf7ad5b2d0277c8dcc53c954",
+2026-03-12T17:35:36.0761635Z             "url": "https://github.com/dem0n1337/kvp-servis-modern/commit/6e23cc112660d7cb9d0593e791287c8c6ab1f792"
+2026-03-12T17:35:36.0762871Z           },
+2026-03-12T17:35:36.0763104Z           "pusher": {
+2026-03-12T17:35:36.0763464Z             "email": "152562201+dem0n1337@users.noreply.github.com",
+2026-03-12T17:35:36.0763882Z             "name": "dem0n1337"
+2026-03-12T17:35:36.0764175Z           },
+2026-03-12T17:35:36.0764438Z           "ref": "refs/heads/master",
+2026-03-12T17:35:36.0764801Z           "repository": {
+2026-03-12T17:35:36.0765127Z             "allow_forking": true,
+2026-03-12T17:35:36.0765841Z             "archive_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/{archive_format}{/ref}",
+2026-03-12T17:35:36.0766573Z             "archived": false,
+2026-03-12T17:35:36.0767234Z             "assignees_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/assignees{/user}",
+2026-03-12T17:35:36.0768201Z             "blobs_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/blobs{/sha}",
+2026-03-12T17:35:36.0769120Z             "branches_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/branches{/branch}",
+2026-03-12T17:35:36.0769964Z             "clone_url": "https://github.com/dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0770569Z             "collaborators_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/collaborators{/collaborator}",
+2026-03-12T17:35:36.0771179Z             "comments_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/comments{/number}",
+2026-03-12T17:35:36.0771717Z             "commits_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/commits{/sha}",
+2026-03-12T17:35:36.0772270Z             "compare_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/compare/{base}...{head}",
+2026-03-12T17:35:36.0773025Z             "contents_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/contents/{+path}",
+2026-03-12T17:35:36.0773582Z             "contributors_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/contributors",
+2026-03-12T17:35:36.0773974Z             "created_at": 1754339981,
+2026-03-12T17:35:36.0774210Z             "default_branch": "master",
+2026-03-12T17:35:36.0774585Z             "deployments_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/deployments",
+2026-03-12T17:35:36.0774986Z             "description": null,
+2026-03-12T17:35:36.0775196Z             "disabled": false,
+2026-03-12T17:35:36.0775543Z             "downloads_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/downloads",
+2026-03-12T17:35:36.0776037Z             "events_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/events",
+2026-03-12T17:35:36.0776383Z             "fork": false,
+2026-03-12T17:35:36.0776739Z             "forks": 0,
+2026-03-12T17:35:36.0776922Z             "forks_count": 0,
+2026-03-12T17:35:36.0777249Z             "forks_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/forks",
+2026-03-12T17:35:36.0777629Z             "full_name": "dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0778057Z             "git_commits_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/commits{/sha}",
+2026-03-12T17:35:36.0778597Z             "git_refs_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/refs{/sha}",
+2026-03-12T17:35:36.0779124Z             "git_tags_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/tags{/sha}",
+2026-03-12T17:35:36.0779586Z             "git_url": "git://github.com/dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0779886Z             "has_discussions": false,
+2026-03-12T17:35:36.0780115Z             "has_downloads": true,
+2026-03-12T17:35:36.0780326Z             "has_issues": true,
+2026-03-12T17:35:36.0780553Z             "has_pages": false,
+2026-03-12T17:35:36.0780756Z             "has_projects": true,
+2026-03-12T17:35:36.0780977Z             "has_pull_requests": true,
+2026-03-12T17:35:36.0781273Z             "has_wiki": false,
+2026-03-12T17:35:36.0781472Z             "homepage": null,
+2026-03-12T17:35:36.0781790Z             "hooks_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/hooks",
+2026-03-12T17:35:36.0782202Z             "html_url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0782667Z             "id": 1032115476,
+2026-03-12T17:35:36.0782865Z             "is_template": false,
+2026-03-12T17:35:36.0783286Z             "issue_comment_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues/comments{/number}",
+2026-03-12T17:35:36.0783905Z             "issue_events_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues/events{/number}",
+2026-03-12T17:35:36.0784465Z             "issues_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues{/number}",
+2026-03-12T17:35:36.0784979Z             "keys_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/keys{/key_id}",
+2026-03-12T17:35:36.0785476Z             "labels_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/labels{/name}",
+2026-03-12T17:35:36.0785852Z             "language": "Vue",
+2026-03-12T17:35:36.0786193Z             "languages_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/languages",
+2026-03-12T17:35:36.0786566Z             "license": null,
+2026-03-12T17:35:36.0786777Z             "master_branch": "master",
+2026-03-12T17:35:36.0787115Z             "merges_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/merges",
+2026-03-12T17:35:36.0787639Z             "milestones_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/milestones{/number}",
+2026-03-12T17:35:36.0788038Z             "mirror_url": null,
+2026-03-12T17:35:36.0788259Z             "name": "kvp-servis-modern",
+2026-03-12T17:35:36.0788488Z             "node_id": "R_kgDOPYTVFA",
+2026-03-12T17:35:36.0788971Z             "notifications_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/notifications{?since,all,participating}",
+2026-03-12T17:35:36.0789474Z             "open_issues": 0,
+2026-03-12T17:35:36.0789675Z             "open_issues_count": 0,
+2026-03-12T17:35:36.0789888Z             "owner": {
+2026-03-12T17:35:36.0790177Z               "avatar_url": "https://avatars.githubusercontent.com/u/152562201?v=4",
+2026-03-12T17:35:36.0790584Z               "email": "152562201+dem0n1337@users.noreply.github.com",
+2026-03-12T17:35:36.0790965Z               "events_url": "https://api.github.com/users/dem0n1337/events{/privacy}",
+2026-03-12T17:35:36.0791420Z               "followers_url": "https://api.github.com/users/dem0n1337/followers",
+2026-03-12T17:35:36.0791873Z               "following_url": "https://api.github.com/users/dem0n1337/following{/other_user}",
+2026-03-12T17:35:36.0792321Z               "gists_url": "https://api.github.com/users/dem0n1337/gists{/gist_id}",
+2026-03-12T17:35:36.0792854Z               "gravatar_id": "",
+2026-03-12T17:35:36.0793099Z               "html_url": "https://github.com/dem0n1337",
+2026-03-12T17:35:36.0793365Z               "id": 152562201,
+2026-03-12T17:35:36.0793563Z               "login": "dem0n1337",
+2026-03-12T17:35:36.0793787Z               "name": "dem0n1337",
+2026-03-12T17:35:36.0794001Z               "node_id": "U_kgDOCRfqGQ",
+2026-03-12T17:35:36.0794324Z               "organizations_url": "https://api.github.com/users/dem0n1337/orgs",
+2026-03-12T17:35:36.0794777Z               "received_events_url": "https://api.github.com/users/dem0n1337/received_events",
+2026-03-12T17:35:36.0795198Z               "repos_url": "https://api.github.com/users/dem0n1337/repos",
+2026-03-12T17:35:36.0795496Z               "site_admin": false,
+2026-03-12T17:35:36.0795825Z               "starred_url": "https://api.github.com/users/dem0n1337/starred{/owner}{/repo}",
+2026-03-12T17:35:36.0796297Z               "subscriptions_url": "https://api.github.com/users/dem0n1337/subscriptions",
+2026-03-12T17:35:36.0796648Z               "type": "User",
+2026-03-12T17:35:36.0796893Z               "url": "https://api.github.com/users/dem0n1337",
+2026-03-12T17:35:36.0797235Z               "user_view_type": "public"
+2026-03-12T17:35:36.0797444Z             },
+2026-03-12T17:35:36.0797622Z             "private": true,
+2026-03-12T17:35:36.0797840Z             "pull_request_creation_policy": "all",
+2026-03-12T17:35:36.0798239Z             "pulls_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/pulls{/number}",
+2026-03-12T17:35:36.0798615Z             "pushed_at": 1773336217,
+2026-03-12T17:35:36.0798982Z             "releases_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/releases{/id}",
+2026-03-12T17:35:36.0799364Z             "size": 3402,
+2026-03-12T17:35:36.0799620Z             "ssh_url": "git@github.com:dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0799931Z             "stargazers": 0,
+2026-03-12T17:35:36.0800138Z             "stargazers_count": 0,
+2026-03-12T17:35:36.0800501Z             "stargazers_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/stargazers",
+2026-03-12T17:35:36.0801027Z             "statuses_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/statuses/{sha}",
+2026-03-12T17:35:36.0801563Z             "subscribers_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/subscribers",
+2026-03-12T17:35:36.0802103Z             "subscription_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/subscription",
+2026-03-12T17:35:36.0802757Z             "svn_url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0803166Z             "tags_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/tags",
+2026-03-12T17:35:36.0803613Z             "teams_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/teams",
+2026-03-12T17:35:36.0803968Z             "topics": [],
+2026-03-12T17:35:36.0804301Z             "trees_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/trees{/sha}",
+2026-03-12T17:35:36.0804699Z             "updated_at": "2026-02-03T21:10:42Z",
+2026-03-12T17:35:36.0805031Z             "url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0805346Z             "visibility": "private",
+2026-03-12T17:35:36.0805572Z             "watchers": 0,
+2026-03-12T17:35:36.0805764Z             "watchers_count": 0,
+2026-03-12T17:35:36.0805992Z             "web_commit_signoff_required": false
+2026-03-12T17:35:36.0806215Z           },
+2026-03-12T17:35:36.0806374Z           "sender": {
+2026-03-12T17:35:36.0806654Z             "avatar_url": "https://avatars.githubusercontent.com/u/152562201?v=4",
+2026-03-12T17:35:36.0807094Z             "events_url": "https://api.github.com/users/dem0n1337/events{/privacy}",
+2026-03-12T17:35:36.0807515Z             "followers_url": "https://api.github.com/users/dem0n1337/followers",
+2026-03-12T17:35:36.0807952Z             "following_url": "https://api.github.com/users/dem0n1337/following{/other_user}",
+2026-03-12T17:35:36.0808473Z             "gists_url": "https://api.github.com/users/dem0n1337/gists{/gist_id}",
+2026-03-12T17:35:36.0808789Z             "gravatar_id": "",
+2026-03-12T17:35:36.0809034Z             "html_url": "https://github.com/dem0n1337",
+2026-03-12T17:35:36.0809286Z             "id": 152562201,
+2026-03-12T17:35:36.0809490Z             "login": "dem0n1337",
+2026-03-12T17:35:36.0809712Z             "node_id": "U_kgDOCRfqGQ",
+2026-03-12T17:35:36.0810029Z             "organizations_url": "https://api.github.com/users/dem0n1337/orgs",
+2026-03-12T17:35:36.0810483Z             "received_events_url": "https://api.github.com/users/dem0n1337/received_events",
+2026-03-12T17:35:36.0810902Z             "repos_url": "https://api.github.com/users/dem0n1337/repos",
+2026-03-12T17:35:36.0811206Z             "site_admin": false,
+2026-03-12T17:35:36.0811526Z             "starred_url": "https://api.github.com/users/dem0n1337/starred{/owner}{/repo}",
+2026-03-12T17:35:36.0811998Z             "subscriptions_url": "https://api.github.com/users/dem0n1337/subscriptions",
+2026-03-12T17:35:36.0812458Z             "type": "User",
+2026-03-12T17:35:36.0812811Z             "url": "https://api.github.com/users/dem0n1337",
+2026-03-12T17:35:36.0813092Z             "user_view_type": "public"
+2026-03-12T17:35:36.0813299Z           }
+2026-03-12T17:35:36.0813454Z         },
+2026-03-12T17:35:36.0813629Z         "github_job": "build-and-push",
+2026-03-12T17:35:36.0813875Z         "github_ref": "refs/heads/master",
+2026-03-12T17:35:36.0814107Z         "github_ref_name": "master",
+2026-03-12T17:35:36.0814357Z         "github_ref_protected": "false",
+2026-03-12T17:35:36.0814590Z         "github_ref_type": "branch",
+2026-03-12T17:35:36.0814863Z         "github_repository": "dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0815148Z         "github_repository_id": "1032115476",
+2026-03-12T17:35:36.0815396Z         "github_repository_owner": "dem0n1337",
+2026-03-12T17:35:36.0815662Z         "github_repository_owner_id": "152562201",
+2026-03-12T17:35:36.0815907Z         "github_run_attempt": "1",
+2026-03-12T17:35:36.0816130Z         "github_run_id": "23014924519",
+2026-03-12T17:35:36.0816347Z         "github_run_number": "13",
+2026-03-12T17:35:36.0816565Z         "github_runner_arch": "X64",
+2026-03-12T17:35:36.0816809Z         "github_runner_environment": "github-hosted",
+2026-03-12T17:35:36.0817079Z         "github_runner_image_os": "ubuntu24",
+2026-03-12T17:35:36.0817345Z         "github_runner_image_version": "20260302.42.1",
+2026-03-12T17:35:36.0817629Z         "github_runner_name": "GitHub Actions 1000000069",
+2026-03-12T17:35:36.0817889Z         "github_runner_os": "Linux",
+2026-03-12T17:35:36.0818208Z         "github_runner_tracking_id": "github_b036adb1-7448-48e1-a5a0-d29580ad0c43",
+2026-03-12T17:35:36.0818574Z         "github_server_url": "https://github.com",
+2026-03-12T17:35:36.0818833Z         "github_triggering_actor": "dem0n1337",
+2026-03-12T17:35:36.0819116Z         "github_workflow": "Build and Deploy Docker Image",
+2026-03-12T17:35:36.0819598Z         "github_workflow_ref": "dem0n1337/kvp-servis-modern/.github/workflows/docker-deploy.yml@refs/heads/master",
+2026-03-12T17:35:36.0820113Z         "github_workflow_sha": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0820425Z         "platform": "linux/amd64"
+2026-03-12T17:35:36.0820621Z       }
+2026-03-12T17:35:36.0820767Z     }
+2026-03-12T17:35:36.0821001Z   },
+2026-03-12T17:35:36.0821179Z   "buildx.build.provenance/linux/arm64": {
+2026-03-12T17:35:36.0821412Z     "builder": {
+2026-03-12T17:35:36.0821700Z       "id": "https://github.com/dem0n1337/kvp-servis-modern/actions/runs/23014924519"
+2026-03-12T17:35:36.0822032Z     },
+2026-03-12T17:35:36.0822232Z     "buildType": "https://mobyproject.org/buildkit@v1",
+2026-03-12T17:35:36.0822646Z     "materials": [
+2026-03-12T17:35:36.0822811Z       {
+2026-03-12T17:35:36.0823050Z         "uri": "pkg:docker/node@22-bullseye-slim?platform=linux%2Farm64",
+2026-03-12T17:35:36.0823422Z         "digest": {
+2026-03-12T17:35:36.0823725Z           "sha256": "52064e502db50d30ab3d9c718c596fe7ec412dfc6b76e39c80a58aec30ed0b92"
+2026-03-12T17:35:36.0824063Z         }
+2026-03-12T17:35:36.0824221Z       }
+2026-03-12T17:35:36.0824358Z     ],
+2026-03-12T17:35:36.0824513Z     "invocation": {
+2026-03-12T17:35:36.0824699Z       "configSource": {
+2026-03-12T17:35:36.0824889Z         "entryPoint": "Dockerfile"
+2026-03-12T17:35:36.0825104Z       },
+2026-03-12T17:35:36.0825256Z       "parameters": {
+2026-03-12T17:35:36.0825458Z         "frontend": "dockerfile.v0",
+2026-03-12T17:35:36.0825666Z         "args": {
+2026-03-12T17:35:36.0825940Z           "label:org.opencontainers.image.created": "2026-03-12T17:23:59.881Z",
+2026-03-12T17:35:36.0826321Z           "label:org.opencontainers.image.description": "",
+2026-03-12T17:35:36.0826656Z           "label:org.opencontainers.image.licenses": "",
+2026-03-12T17:35:36.0827064Z           "label:org.opencontainers.image.revision": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0827624Z           "label:org.opencontainers.image.source": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0828113Z           "label:org.opencontainers.image.title": "kvp-servis-modern",
+2026-03-12T17:35:36.0828616Z           "label:org.opencontainers.image.url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0829061Z           "label:org.opencontainers.image.version": "master"
+2026-03-12T17:35:36.0829323Z         },
+2026-03-12T17:35:36.0829478Z         "locals": [
+2026-03-12T17:35:36.0829637Z           {
+2026-03-12T17:35:36.0829798Z             "name": "context"
+2026-03-12T17:35:36.0829988Z           },
+2026-03-12T17:35:36.0830131Z           {
+2026-03-12T17:35:36.0830295Z             "name": "dockerfile"
+2026-03-12T17:35:36.0830487Z           }
+2026-03-12T17:35:36.0830637Z         ]
+2026-03-12T17:35:36.0830777Z       },
+2026-03-12T17:35:36.0830932Z       "environment": {
+2026-03-12T17:35:36.0831114Z         "github_actor": "dem0n1337",
+2026-03-12T17:35:36.0831352Z         "github_actor_id": "152562201",
+2026-03-12T17:35:36.0831569Z         "github_event_name": "push",
+2026-03-12T17:35:36.0831790Z         "github_event_payload": {
+2026-03-12T17:35:36.0832044Z           "after": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0832304Z           "base_ref": null,
+2026-03-12T17:35:36.0832633Z           "before": "1d6f41b7d57ac50252f7e1cc61a87ab2565a1bbd",
+2026-03-12T17:35:36.0832890Z           "commits": [
+2026-03-12T17:35:36.0833061Z             {
+2026-03-12T17:35:36.0833218Z               "author": {
+2026-03-12T17:35:36.0833442Z                 "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0833697Z                 "name": "Jakub Demovic"
+2026-03-12T17:35:36.0833908Z               },
+2026-03-12T17:35:36.0834075Z               "committer": {
+2026-03-12T17:35:36.0834307Z                 "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0834563Z                 "name": "Jakub Demovic"
+2026-03-12T17:35:36.0834774Z               },
+2026-03-12T17:35:36.0834950Z               "distinct": true,
+2026-03-12T17:35:36.0835186Z               "id": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0838141Z               "message": "fix(seo): comprehensive SEO overhaul to restore search engine indexing\n\n- Add @nuxtjs/sitemap module for automatic sitemap.xml generation\n- Add lang=\"sk\" HTML attribute for proper language detection\n- Add canonical URLs on all pages to prevent duplicate content\n- Add JSON-LD LocalBusiness structured data (schema.org)\n- Add Open Graph and Twitter Card meta tags on all pages\n- Add geo meta tags (SK-BL, Slovensky Grob) for local SEO\n- Fix heading hierarchy: layout h1 changed to span, pages keep their h1\n- Fix meta descriptions to stay within 120-160 char limit\n- Add descriptive alt texts to all gallery images\n- Wrap BusinessMap in ClientOnly for proper SSR\n- Update robots.txt with sitemap reference\n- Add llms.txt for LLM crawlers\n- Set ssr: true explicitly in nuxt.config\n- Disable devtools in production\n- Dynamic copyright year in footer\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+2026-03-12T17:35:36.0841111Z               "timestamp": "2026-03-12T18:22:36+01:00",
+2026-03-12T17:35:36.0841424Z               "tree_id": "ec8cd643f63be308cf7ad5b2d0277c8dcc53c954",
+2026-03-12T17:35:36.0841908Z               "url": "https://github.com/dem0n1337/kvp-servis-modern/commit/6e23cc112660d7cb9d0593e791287c8c6ab1f792"
+2026-03-12T17:35:36.0842397Z             }
+2026-03-12T17:35:36.0842553Z           ],
+2026-03-12T17:35:36.0842899Z           "compare": "https://github.com/dem0n1337/kvp-servis-modern/compare/1d6f41b7d57a...6e23cc112660",
+2026-03-12T17:35:36.0843299Z           "created": false,
+2026-03-12T17:35:36.0843499Z           "deleted": false,
+2026-03-12T17:35:36.0843687Z           "forced": false,
+2026-03-12T17:35:36.0843887Z           "head_commit": {
+2026-03-12T17:35:36.0844078Z             "author": {
+2026-03-12T17:35:36.0844286Z               "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0844554Z               "name": "Jakub Demovic"
+2026-03-12T17:35:36.0844758Z             },
+2026-03-12T17:35:36.0844925Z             "committer": {
+2026-03-12T17:35:36.0845212Z               "email": "jakub.demovic@innovatrics.com",
+2026-03-12T17:35:36.0845474Z               "name": "Jakub Demovic"
+2026-03-12T17:35:36.0845673Z             },
+2026-03-12T17:35:36.0845842Z             "distinct": true,
+2026-03-12T17:35:36.0846073Z             "id": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0848975Z             "message": "fix(seo): comprehensive SEO overhaul to restore search engine indexing\n\n- Add @nuxtjs/sitemap module for automatic sitemap.xml generation\n- Add lang=\"sk\" HTML attribute for proper language detection\n- Add canonical URLs on all pages to prevent duplicate content\n- Add JSON-LD LocalBusiness structured data (schema.org)\n- Add Open Graph and Twitter Card meta tags on all pages\n- Add geo meta tags (SK-BL, Slovensky Grob) for local SEO\n- Fix heading hierarchy: layout h1 changed to span, pages keep their h1\n- Fix meta descriptions to stay within 120-160 char limit\n- Add descriptive alt texts to all gallery images\n- Wrap BusinessMap in ClientOnly for proper SSR\n- Update robots.txt with sitemap reference\n- Add llms.txt for LLM crawlers\n- Set ssr: true explicitly in nuxt.config\n- Disable devtools in production\n- Dynamic copyright year in footer\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+2026-03-12T17:35:36.0851843Z             "timestamp": "2026-03-12T18:22:36+01:00",
+2026-03-12T17:35:36.0852140Z             "tree_id": "ec8cd643f63be308cf7ad5b2d0277c8dcc53c954",
+2026-03-12T17:35:36.0852669Z             "url": "https://github.com/dem0n1337/kvp-servis-modern/commit/6e23cc112660d7cb9d0593e791287c8c6ab1f792"
+2026-03-12T17:35:36.0853091Z           },
+2026-03-12T17:35:36.0853245Z           "pusher": {
+2026-03-12T17:35:36.0853485Z             "email": "152562201+dem0n1337@users.noreply.github.com",
+2026-03-12T17:35:36.0853772Z             "name": "dem0n1337"
+2026-03-12T17:35:36.0853955Z           },
+2026-03-12T17:35:36.0854122Z           "ref": "refs/heads/master",
+2026-03-12T17:35:36.0854334Z           "repository": {
+2026-03-12T17:35:36.0854531Z             "allow_forking": true,
+2026-03-12T17:35:36.0854925Z             "archive_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/{archive_format}{/ref}",
+2026-03-12T17:35:36.0855343Z             "archived": false,
+2026-03-12T17:35:36.0855702Z             "assignees_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/assignees{/user}",
+2026-03-12T17:35:36.0856236Z             "blobs_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/blobs{/sha}",
+2026-03-12T17:35:36.0856770Z             "branches_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/branches{/branch}",
+2026-03-12T17:35:36.0857248Z             "clone_url": "https://github.com/dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0857838Z             "collaborators_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/collaborators{/collaborator}",
+2026-03-12T17:35:36.0858438Z             "comments_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/comments{/number}",
+2026-03-12T17:35:36.0858974Z             "commits_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/commits{/sha}",
+2026-03-12T17:35:36.0859527Z             "compare_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/compare/{base}...{head}",
+2026-03-12T17:35:36.0860093Z             "contents_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/contents/{+path}",
+2026-03-12T17:35:36.0860645Z             "contributors_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/contributors",
+2026-03-12T17:35:36.0861034Z             "created_at": 1754339981,
+2026-03-12T17:35:36.0861266Z             "default_branch": "master",
+2026-03-12T17:35:36.0861642Z             "deployments_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/deployments",
+2026-03-12T17:35:36.0862036Z             "description": null,
+2026-03-12T17:35:36.0862251Z             "disabled": false,
+2026-03-12T17:35:36.0862649Z             "downloads_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/downloads",
+2026-03-12T17:35:36.0863207Z             "events_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/events",
+2026-03-12T17:35:36.0863550Z             "fork": false,
+2026-03-12T17:35:36.0863742Z             "forks": 0,
+2026-03-12T17:35:36.0863930Z             "forks_count": 0,
+2026-03-12T17:35:36.0864241Z             "forks_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/forks",
+2026-03-12T17:35:36.0864617Z             "full_name": "dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0865029Z             "git_commits_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/commits{/sha}",
+2026-03-12T17:35:36.0865575Z             "git_refs_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/refs{/sha}",
+2026-03-12T17:35:36.0866091Z             "git_tags_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/tags{/sha}",
+2026-03-12T17:35:36.0866546Z             "git_url": "git://github.com/dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0866857Z             "has_discussions": false,
+2026-03-12T17:35:36.0867075Z             "has_downloads": true,
+2026-03-12T17:35:36.0867298Z             "has_issues": true,
+2026-03-12T17:35:36.0867500Z             "has_pages": false,
+2026-03-12T17:35:36.0867709Z             "has_projects": true,
+2026-03-12T17:35:36.0867929Z             "has_pull_requests": true,
+2026-03-12T17:35:36.0868155Z             "has_wiki": false,
+2026-03-12T17:35:36.0868350Z             "homepage": null,
+2026-03-12T17:35:36.0868670Z             "hooks_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/hooks",
+2026-03-12T17:35:36.0869091Z             "html_url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0869379Z             "id": 1032115476,
+2026-03-12T17:35:36.0869582Z             "is_template": false,
+2026-03-12T17:35:36.0869986Z             "issue_comment_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues/comments{/number}",
+2026-03-12T17:35:36.0870607Z             "issue_events_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues/events{/number}",
+2026-03-12T17:35:36.0871164Z             "issues_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/issues{/number}",
+2026-03-12T17:35:36.0871674Z             "keys_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/keys{/key_id}",
+2026-03-12T17:35:36.0872174Z             "labels_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/labels{/name}",
+2026-03-12T17:35:36.0872595Z             "language": "Vue",
+2026-03-12T17:35:36.0872937Z             "languages_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/languages",
+2026-03-12T17:35:36.0873303Z             "license": null,
+2026-03-12T17:35:36.0873576Z             "master_branch": "master",
+2026-03-12T17:35:36.0873915Z             "merges_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/merges",
+2026-03-12T17:35:36.0874446Z             "milestones_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/milestones{/number}",
+2026-03-12T17:35:36.0874851Z             "mirror_url": null,
+2026-03-12T17:35:36.0875062Z             "name": "kvp-servis-modern",
+2026-03-12T17:35:36.0875295Z             "node_id": "R_kgDOPYTVFA",
+2026-03-12T17:35:36.0875764Z             "notifications_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/notifications{?since,all,participating}",
+2026-03-12T17:35:36.0876254Z             "open_issues": 0,
+2026-03-12T17:35:36.0876454Z             "open_issues_count": 0,
+2026-03-12T17:35:36.0876674Z             "owner": {
+2026-03-12T17:35:36.0876972Z               "avatar_url": "https://avatars.githubusercontent.com/u/152562201?v=4",
+2026-03-12T17:35:36.0877365Z               "email": "152562201+dem0n1337@users.noreply.github.com",
+2026-03-12T17:35:36.0877758Z               "events_url": "https://api.github.com/users/dem0n1337/events{/privacy}",
+2026-03-12T17:35:36.0878175Z               "followers_url": "https://api.github.com/users/dem0n1337/followers",
+2026-03-12T17:35:36.0878722Z               "following_url": "https://api.github.com/users/dem0n1337/following{/other_user}",
+2026-03-12T17:35:36.0879166Z               "gists_url": "https://api.github.com/users/dem0n1337/gists{/gist_id}",
+2026-03-12T17:35:36.0879494Z               "gravatar_id": "",
+2026-03-12T17:35:36.0879742Z               "html_url": "https://github.com/dem0n1337",
+2026-03-12T17:35:36.0879989Z               "id": 152562201,
+2026-03-12T17:35:36.0880193Z               "login": "dem0n1337",
+2026-03-12T17:35:36.0880406Z               "name": "dem0n1337",
+2026-03-12T17:35:36.0880627Z               "node_id": "U_kgDOCRfqGQ",
+2026-03-12T17:35:36.0880939Z               "organizations_url": "https://api.github.com/users/dem0n1337/orgs",
+2026-03-12T17:35:36.0881400Z               "received_events_url": "https://api.github.com/users/dem0n1337/received_events",
+2026-03-12T17:35:36.0881832Z               "repos_url": "https://api.github.com/users/dem0n1337/repos",
+2026-03-12T17:35:36.0882125Z               "site_admin": false,
+2026-03-12T17:35:36.0882514Z               "starred_url": "https://api.github.com/users/dem0n1337/starred{/owner}{/repo}",
+2026-03-12T17:35:36.0882982Z               "subscriptions_url": "https://api.github.com/users/dem0n1337/subscriptions",
+2026-03-12T17:35:36.0883334Z               "type": "User",
+2026-03-12T17:35:36.0883573Z               "url": "https://api.github.com/users/dem0n1337",
+2026-03-12T17:35:36.0883858Z               "user_view_type": "public"
+2026-03-12T17:35:36.0884070Z             },
+2026-03-12T17:35:36.0884241Z             "private": true,
+2026-03-12T17:35:36.0884464Z             "pull_request_creation_policy": "all",
+2026-03-12T17:35:36.0884851Z             "pulls_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/pulls{/number}",
+2026-03-12T17:35:36.0885236Z             "pushed_at": 1773336217,
+2026-03-12T17:35:36.0885602Z             "releases_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/releases{/id}",
+2026-03-12T17:35:36.0885993Z             "size": 3402,
+2026-03-12T17:35:36.0886254Z             "ssh_url": "git@github.com:dem0n1337/kvp-servis-modern.git",
+2026-03-12T17:35:36.0886557Z             "stargazers": 0,
+2026-03-12T17:35:36.0886758Z             "stargazers_count": 0,
+2026-03-12T17:35:36.0887113Z             "stargazers_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/stargazers",
+2026-03-12T17:35:36.0887643Z             "statuses_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/statuses/{sha}",
+2026-03-12T17:35:36.0888166Z             "subscribers_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/subscribers",
+2026-03-12T17:35:36.0888707Z             "subscription_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/subscription",
+2026-03-12T17:35:36.0889217Z             "svn_url": "https://github.com/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0889615Z             "tags_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/tags",
+2026-03-12T17:35:36.0890069Z             "teams_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/teams",
+2026-03-12T17:35:36.0890404Z             "topics": [],
+2026-03-12T17:35:36.0890735Z             "trees_url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern/git/trees{/sha}",
+2026-03-12T17:35:36.0891119Z             "updated_at": "2026-02-03T21:10:42Z",
+2026-03-12T17:35:36.0891471Z             "url": "https://api.github.com/repos/dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0891781Z             "visibility": "private",
+2026-03-12T17:35:36.0891999Z             "watchers": 0,
+2026-03-12T17:35:36.0892195Z             "watchers_count": 0,
+2026-03-12T17:35:36.0892469Z             "web_commit_signoff_required": false
+2026-03-12T17:35:36.0892703Z           },
+2026-03-12T17:35:36.0892849Z           "sender": {
+2026-03-12T17:35:36.0893140Z             "avatar_url": "https://avatars.githubusercontent.com/u/152562201?v=4",
+2026-03-12T17:35:36.0893624Z             "events_url": "https://api.github.com/users/dem0n1337/events{/privacy}",
+2026-03-12T17:35:36.0894040Z             "followers_url": "https://api.github.com/users/dem0n1337/followers",
+2026-03-12T17:35:36.0894488Z             "following_url": "https://api.github.com/users/dem0n1337/following{/other_user}",
+2026-03-12T17:35:36.0894925Z             "gists_url": "https://api.github.com/users/dem0n1337/gists{/gist_id}",
+2026-03-12T17:35:36.0895246Z             "gravatar_id": "",
+2026-03-12T17:35:36.0895481Z             "html_url": "https://github.com/dem0n1337",
+2026-03-12T17:35:36.0895740Z             "id": 152562201,
+2026-03-12T17:35:36.0895934Z             "login": "dem0n1337",
+2026-03-12T17:35:36.0896151Z             "node_id": "U_kgDOCRfqGQ",
+2026-03-12T17:35:36.0896460Z             "organizations_url": "https://api.github.com/users/dem0n1337/orgs",
+2026-03-12T17:35:36.0896912Z             "received_events_url": "https://api.github.com/users/dem0n1337/received_events",
+2026-03-12T17:35:36.0897339Z             "repos_url": "https://api.github.com/users/dem0n1337/repos",
+2026-03-12T17:35:36.0897632Z             "site_admin": false,
+2026-03-12T17:35:36.0897958Z             "starred_url": "https://api.github.com/users/dem0n1337/starred{/owner}{/repo}",
+2026-03-12T17:35:36.0898422Z             "subscriptions_url": "https://api.github.com/users/dem0n1337/subscriptions",
+2026-03-12T17:35:36.0898774Z             "type": "User",
+2026-03-12T17:35:36.0899013Z             "url": "https://api.github.com/users/dem0n1337",
+2026-03-12T17:35:36.0899291Z             "user_view_type": "public"
+2026-03-12T17:35:36.0899502Z           }
+2026-03-12T17:35:36.0899649Z         },
+2026-03-12T17:35:36.0899825Z         "github_job": "build-and-push",
+2026-03-12T17:35:36.0900061Z         "github_ref": "refs/heads/master",
+2026-03-12T17:35:36.0900310Z         "github_ref_name": "master",
+2026-03-12T17:35:36.0900531Z         "github_ref_protected": "false",
+2026-03-12T17:35:36.0900767Z         "github_ref_type": "branch",
+2026-03-12T17:35:36.0901029Z         "github_repository": "dem0n1337/kvp-servis-modern",
+2026-03-12T17:35:36.0901318Z         "github_repository_id": "1032115476",
+2026-03-12T17:35:36.0901569Z         "github_repository_owner": "dem0n1337",
+2026-03-12T17:35:36.0901832Z         "github_repository_owner_id": "152562201",
+2026-03-12T17:35:36.0902084Z         "github_run_attempt": "1",
+2026-03-12T17:35:36.0902296Z         "github_run_id": "23014924519",
+2026-03-12T17:35:36.0902576Z         "github_run_number": "13",
+2026-03-12T17:35:36.0902791Z         "github_runner_arch": "X64",
+2026-03-12T17:35:36.0903045Z         "github_runner_environment": "github-hosted",
+2026-03-12T17:35:36.0903312Z         "github_runner_image_os": "ubuntu24",
+2026-03-12T17:35:36.0903579Z         "github_runner_image_version": "20260302.42.1",
+2026-03-12T17:35:36.0903924Z         "github_runner_name": "GitHub Actions 1000000069",
+2026-03-12T17:35:36.0904189Z         "github_runner_os": "Linux",
+2026-03-12T17:35:36.0904512Z         "github_runner_tracking_id": "github_b036adb1-7448-48e1-a5a0-d29580ad0c43",
+2026-03-12T17:35:36.0904874Z         "github_server_url": "https://github.com",
+2026-03-12T17:35:36.0905142Z         "github_triggering_actor": "dem0n1337",
+2026-03-12T17:35:36.0905422Z         "github_workflow": "Build and Deploy Docker Image",
+2026-03-12T17:35:36.0905904Z         "github_workflow_ref": "dem0n1337/kvp-servis-modern/.github/workflows/docker-deploy.yml@refs/heads/master",
+2026-03-12T17:35:36.0906424Z         "github_workflow_sha": "6e23cc112660d7cb9d0593e791287c8c6ab1f792",
+2026-03-12T17:35:36.0906744Z         "platform": "linux/amd64"
+2026-03-12T17:35:36.0906952Z       }
+2026-03-12T17:35:36.0907096Z     }
+2026-03-12T17:35:36.0907244Z   },
+2026-03-12T17:35:36.0907717Z   "buildx.build.ref": "builder-50d45286-48e5-461a-b7c7-f8000c36bcd5/builder-50d45286-48e5-461a-b7c7-f8000c36bcd50/m583zrvrzzs06dttzgbx5fl3r",
+2026-03-12T17:35:36.0908302Z   "containerimage.descriptor": {
+2026-03-12T17:35:36.0908582Z     "mediaType": "application/vnd.oci.image.index.v1+json",
+2026-03-12T17:35:36.0909141Z     "digest": "sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec",
+2026-03-12T17:35:36.0909494Z     "size": 1609
+2026-03-12T17:35:36.0909662Z   },
+2026-03-12T17:35:36.0910005Z   "containerimage.digest": "sha256:70d150c5315c8ec5a63c27bb6622baed1584591ec8439e5f194022c1cf120bec",
+2026-03-12T17:35:36.0910763Z   "image.name": "ghcr.io/dem0n1337/kvp-servis-modern:master,ghcr.io/dem0n1337/kvp-servis-modern:latest,ghcr.io/dem0n1337/kvp-servis-modern:master-6e23cc1"
+2026-03-12T17:35:36.0911320Z }
+2026-03-12T17:35:36.0911720Z ##[endgroup]

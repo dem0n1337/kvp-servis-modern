@@ -1,0 +1,33 @@
+﻿2026-03-12T17:35:46.6337033Z Current runner version: '2.332.0'
+2026-03-12T17:35:46.6377408Z ##[group]Runner Image Provisioner
+2026-03-12T17:35:46.6379212Z Hosted Compute Agent
+2026-03-12T17:35:46.6380714Z Version: 20260213.493
+2026-03-12T17:35:46.6382077Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-12T17:35:46.6383705Z Build Date: 2026-02-13T00:28:41Z
+2026-03-12T17:35:46.6385208Z Worker ID: {03146325-2bd4-4f2f-adbb-521a2113cfb7}
+2026-03-12T17:35:46.6387156Z Azure Region: westus
+2026-03-12T17:35:46.6388341Z ##[endgroup]
+2026-03-12T17:35:46.6391124Z ##[group]Operating System
+2026-03-12T17:35:46.6392668Z Ubuntu
+2026-03-12T17:35:46.6393807Z 24.04.3
+2026-03-12T17:35:46.6395086Z LTS
+2026-03-12T17:35:46.6396539Z ##[endgroup]
+2026-03-12T17:35:46.6398341Z ##[group]Runner Image
+2026-03-12T17:35:46.6399667Z Image: ubuntu-24.04
+2026-03-12T17:35:46.6400963Z Version: 20260302.42.1
+2026-03-12T17:35:46.6403060Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-12T17:35:46.6406829Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+2026-03-12T17:35:46.6408891Z ##[endgroup]
+2026-03-12T17:35:46.6411384Z ##[group]GITHUB_TOKEN Permissions
+2026-03-12T17:35:46.6414995Z Contents: read
+2026-03-12T17:35:46.6416454Z Metadata: read
+2026-03-12T17:35:46.6417675Z Packages: read
+2026-03-12T17:35:46.6418741Z ##[endgroup]
+2026-03-12T17:35:46.6422384Z Secret source: Actions
+2026-03-12T17:35:46.6423816Z Prepare workflow directory
+2026-03-12T17:35:46.7377394Z Prepare all required actions
+2026-03-12T17:35:46.7435610Z Getting action download info
+2026-03-12T17:35:47.2988854Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-03-12T17:35:47.4572707Z Download action repository 'appleboy/scp-action@v0.1.5' (SHA:5878fc908fe21ff5041828e0e01da8a0f89f18c5)
+2026-03-12T17:35:47.9705092Z Download action repository 'appleboy/ssh-action@v1.0.0' (SHA:55dabf81b49d4120609345970c91507e2d734799)
+2026-03-12T17:35:48.6711862Z Complete job name: ***

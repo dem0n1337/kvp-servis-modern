@@ -24,7 +24,7 @@
       
       <div class="container mx-auto px-4 text-center relative z-10">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Naše služby</h1>
-        <p class="text-xl text-primary-pale">Komplexné riešenia pre kúrenie, vodu a plyn</p>
+        <p class="text-xl text-primary-pale">Kúrenár a inštalatér v Bratislave — komplexné riešenia pre kúrenie, vodu a plyn</p>
       </div>
     </section>
 
@@ -470,8 +470,8 @@
     <!-- CTA Section -->
     <section class="py-16 bg-emergency-red text-white">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold mb-4">Chcete sa dozvedieť viac o našich službách?</h2>
-        <p class="text-xl mb-8 text-white/90">Kontaktujte nás pre podrobnú konzultáciu a cenový odhad</p>
+        <h2 class="text-3xl font-bold mb-4">Hľadáte kúrenára alebo inštalatéra v Bratislave?</h2>
+        <p class="text-xl mb-8 text-white/90">Kontaktujte nás pre podrobnú konzultáciu a cenový odhad — pôsobíme v celom Bratislavskom kraji</p>
         <div class="flex flex-col sm:flex-row gap-6 justify-center">
           <a 
             href="tel:+421918572389" 
@@ -500,17 +500,17 @@
 
 <script setup>
 useHead({
-  title: 'Služby - KVP-Servis | Kúrenie, voda a plyn',
+  title: 'Služby kúrenára a inštalatéra - KVP-Servis | Bratislava a okolie',
   meta: [
     {
       name: 'description',
-      content: 'Služby KVP-Servis: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie. Bratislavský kraj.',
+      content: 'Služby kúrenára a inštalatéra v Bratislave: inštalácia kondenzačných kotlov, podlahové kúrenie, vodoinštalácie, plynové rozvody a servis. KVP-Servis — Bratislava a okolie.',
     },
-    { property: 'og:title', content: 'Služby - KVP-Servis | Kúrenie, voda a plyn' },
-    { property: 'og:description', content: 'Kompletný prehľad služieb: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie.' },
+    { property: 'og:title', content: 'Služby kúrenára a inštalatéra - KVP-Servis | Bratislava' },
+    { property: 'og:description', content: 'Kúrenár a inštalatér v Bratislave: inštalácia kotlov Buderus, Vaillant, Protherm, podlahové kúrenie, vodoinštalácie, plynové rozvody a servis.' },
     { property: 'og:url', content: 'https://kvp-servis.sk/sluzby' },
-    { name: 'twitter:title', content: 'Služby - KVP-Servis | Kúrenie, voda a plyn' },
-    { name: 'twitter:description', content: 'Kompletný prehľad služieb: inštalácia kotlov, podlahové kúrenie, vodovodné a plynové inštalácie.' },
+    { name: 'twitter:title', content: 'Služby kúrenára a inštalatéra - KVP-Servis | Bratislava' },
+    { name: 'twitter:description', content: 'Kúrenár a inštalatér v Bratislave: inštalácia kotlov, podlahové kúrenie, vodoinštalácie a plynové inštalácie.' },
   ],
   link: [
     { rel: 'canonical', href: 'https://kvp-servis.sk/sluzby' },
